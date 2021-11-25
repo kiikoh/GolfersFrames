@@ -2,6 +2,8 @@
     {
         "courseName": "New Jersey National",
         "folder": "NJN",
+        "slug": "new-jersey-national",
+        "public": false,
         "assets": {
             "logo": "logo.jpg",
             "holes": [
@@ -16,6 +18,12 @@
                     "description": "Hole 2",
                     "yards": 335,
                     "par": 4
+                },
+                {
+                    "url": "hole5.jpg",
+                    "description": "Hole 5",
+                    "yards": 3254,
+                    "par": 3
                 }
             ]
         }
@@ -23,6 +31,8 @@
     {
         "courseName": "Caves Creek",
         "folder": "CC",
+        "slug": "caves-creek",
+        "public": false,
         "assets": {
             "logo": "logo.jpg",
             "holes": [
