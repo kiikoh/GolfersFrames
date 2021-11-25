@@ -1,0 +1,51 @@
+[
+    {
+        "courseName": "New Jersey National",
+        "folder": "NJN",
+        "assets": {
+            "logo": "logo.jpg",
+            "holes": [
+                {
+                    "url": "hole1.jpg",
+                    "description": "Hole 1",
+                    "yards": 435,
+                    "par": 3
+                },
+                {
+                    "url": "hole2.jpg",
+                    "description": "Hole 2",
+                    "yards": 335,
+                    "par": 4
+                }
+            ]
+        }
+    },
+    {
+        "courseName": "Caves Creek",
+        "folder": "CC",
+        "assets": {
+            "logo": "logo.jpg",
+            "holes": [
+                {
+                    "url": "hole11.jpg",
+                    "description": "Hole 11",
+                    "yards": 435,
+                    "par": 3
+                },
+                {
+                    "url": "hole12.jpg",
+                    "description": "Hole 12",
+                    "yards": 535,
+                    "par": 5
+                },
+                {
+                    "url": "hole13.jpg",
+                    "description": "Hole 13",
+                    "yards": 333,
+                    "par": 4
+                }
+            ]
+        }
+    }
+]
+
