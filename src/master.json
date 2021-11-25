@@ -5,26 +5,235 @@
         "slug": "new-jersey-national",
         "public": false,
         "assets": {
-            "logo": "logo.jpg",
+            "logo": "njnlogo.ping",
             "holes": [
                 {
                     "url": "hole1.jpg",
-                    "description": "Hole 1",
-                    "yards": 435,
-                    "par": 3
+                    "description": "Hole 1 Fairway",
+                    "yards": 441,
+                    "par": 4
                 },
                 {
                     "url": "hole2.jpg",
                     "description": "Hole 2",
+                    "yards": 499,
+                    "par": 5
+                },
+                {
+                    "url": "hole3.jpg",
+                    "description": "Hole 3 Green",
+                    "yards": 416,
+                    "par": 4
+                },
+                {
+                    "url": "3f.jpg",
+                    "description": "Hole 3 Fairway",
+                    "yards": 416,
+                    "par": 4
+                },
+                {
+                    "url": "3g.jpg",
+                    "description": "Hole 3 Green 2",
+                    "yards": 416,
+                    "par": 4
+                },
+                {
+                    "url": "hole4.jpg",
+                    "description": "Hole 4",
+                    "yards": 176,
+                    "par": 3
+                },
+                {
+                    "url": "4g.jpg",
+                    "description": "Hole 4 Green",
+                    "yards": 176,
+                    "par": 3
+                },
+                {
+                    "url": "5f.jpg",
+                    "description": "Hole 5",
+                    "yards": 398,
+                    "par": 4
+                },
+                {
+                    "url": "hole6.jpg",
+                    "description": "Hole 6",
+                    "yards": 391,
+                    "par": 4
+                },
+                {
+                    "url": "6f.jpg",
+                    "description": "Hole 6 Fairway",
+                    "yards": 391,
+                    "par": 4
+                },
+                {
+                    "url": "hole6green.jpg",
+                    "description": "Hole 6 Green",
+                    "yards": 391,
+                    "par": 4
+                },
+                {
+                    "url": "hole7.jpg",
+                    "description": "Hole 7",
+                    "yards": 147,
+                    "par": 3
+                },
+                {
+                    "url": "7g.jpg",
+                    "description": "Hole 7 Green",
+                    "yards": 147,
+                    "par": 3
+                },
+                {
+                    "url": "8f.jpg",
+                    "description": "Hole 8 Fairway",
+                    "yards": 534,
+                    "par": 5
+                },
+                {
+                    "url": "8f2.jpg",
+                    "description": "Hole 8 Fairway 2",
+                    "yards": 534,
+                    "par": 5
+                },
+                {
+                    "url": "hole9.jpg",
+                    "description": "Hole 9",
+                    "yards": 346,
+                    "par": 4
+                },
+                {
+                    "url": "hole9green.jpg",
+                    "description": "Hole 9 Green",
+                    "yards": 346,
+                    "par": 4
+                },
+                {
+                    "url": "10f.jpg",
+                    "description": "Hole 10 Fairway",
+                    "yards": 474,
+                    "par": 4
+                },
+                {
+                    "url": "hole10fescue.jpg",
+                    "description": "Hole 10 Fescue",
+                    "yards": 474,
+                    "par": 4
+                },
+                {
+                    "url": "hole10green.jpg",
+                    "description": "Hole 10 Green",
+                    "yards": 474,
+                    "par": 4
+                },
+                {
+                    "url": "10g.jpg",
+                    "description": "Hole 10 Green 2",
+                    "yards": 474,
+                    "par": 4
+                },
+                {
+                    "url": "11f.jpg",
+                    "description": "Hole 11 Fairway",
+                    "yards": 213,
+                    "par": 3
+                },
+                {
+                    "url": "11g.jpg",
+                    "description": "Hole 11 Green",
+                    "yards": 213,
+                    "par": 3
+                },
+                {
+                    "url": "hole12.jpg",
+                    "description": "Hole 12",
+                    "yards": 383,
+                    "par": 4
+                },
+                {
+                    "url": "hole13.jpg",
+                    "description": "Hole 13",
+                    "yards": 552,
+                    "par": 5
+                },
+                {
+                    "url": "hole13fairway.jpg",
+                    "description": "Hole 13 Fairway",
+                    "yards": 552,
+                    "par": 5
+                },
+                {
+                    "url": "13g.jpg",
+                    "description": "Hole 13 Green",
+                    "yards": 552,
+                    "par": 5
+                },
+                {
+                    "url": "hole14.jpg",
+                    "description": "Hole 14",
+                    "yards": 439,
+                    "par": 4
+                },
+                {
+                    "url": "hole15.jpg",
+                    "description": "Hole 15",
+                    "yards": 194,
+                    "par": 3
+                },
+                {
+                    "url": "15f.jpg",
+                    "description": "Hole 15 Fairway",
+                    "yards": 194,
+                    "par": 3
+                },
+                {
+                    "url": "15g.jpg",
+                    "description": "Hole 15 Green",
                     "yards": 335,
                     "par": 4
                 },
                 {
-                    "url": "hole5.jpg",
-                    "description": "Hole 5",
-                    "yards": 3254,
-                    "par": 3
-                }
+                    "url": "hole16.jpg",
+                    "description": "Hole 16",
+                    "yards": 369,
+                    "par": 4
+                },
+                {
+                    "url": "16f2.jpg",
+                    "description": "Hole 16 Tee",
+                    "yards": 369,
+                    "par": 4
+                },
+                {
+                    "url": "hole17tee.jpg",
+                    "description": "Hole 17 Tee",
+                    "yards": 397,
+                    "par": 4
+                },
+                {
+                    "url": "hole17.jpg",
+                    "description": "Hole 17 Fairway",
+                    "yards": 397,
+                    "par": 4
+                }, {
+                    "url": "hole18tee.jpg",
+                    "description": "Hole 18 Tee",
+                    "yards": 543,
+                    "par": 5
+                },
+                {
+                    "url": "hole18.jpg",
+                    "description": "Hole 18",
+                    "yards": 543,
+                    "par": 5
+                },
+                {
+                    "url": "njnclub.jpg",
+                    "description": "Clubhouse",
+                    "yards": ,
+                    "par": 
+                },
             ]
         }
     },
