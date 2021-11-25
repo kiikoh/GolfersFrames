@@ -5,7 +5,7 @@
         "slug": "new-jersey-national",
         "public": false,
         "assets": {
-            "logo": "njnlogo.ping",
+            "logo": "njnlogo.png",
             "holes": [
                 {
                     "url": "hole1.jpg",
