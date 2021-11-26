@@ -231,9 +231,9 @@
                 {
                     "url": "njnclub.jpg",
                     "description": "Clubhouse",
-                    "yards": ,
-                    "par": 
-                },
+                    "yards": null,
+                    "par": null
+                }
             ]
         }
     },

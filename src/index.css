@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Parchment-MF';
+  src:url('./fonts/parchment/Parchment-MF.ttf.woff') format('woff'),
+      url('./fonts/parchment/Parchment-MF.ttf.svg#Parchment-MF') format('svg'),
+      url('./fonts/parchment/Parchment-MF.ttf.eot'); 
+  font-weight: normal;
+  font-style: normal;
+}
