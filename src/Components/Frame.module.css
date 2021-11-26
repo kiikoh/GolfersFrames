@@ -1,0 +1,45 @@
+#frameContainer {
+	position: relative;
+	width: 75%;
+}
+
+#frameContainer img {
+	position: absolute;
+	top: 0;
+	left: 0;
+    border: red solid 2px;
+    width: 100%;
+}
+
+#frameContainer img:last-of-type {
+	position: relative!important;   
+	border: green solid 2px!important;
+}
+
+#mainPhoto {
+	position: absolute;
+	width: 80%;
+	top: 9%;
+	left: 10%;
+}
+
+#caption {
+	position: absolute;
+	left: 10%;
+	width: 80%;
+	bottom: 15%;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+}
+
+#caption > span {
+	font-family: "Parchment-MF";
+	font-size: 1.2vw; 
+}
+
+#caption > span {
+	font-family: "Parchment-MF";
+	font-size: 1.8vw; 
+}
