@@ -1,45 +1,39 @@
 #frameContainer {
-	position: relative;
-	width: 75%;
+    position: relative;
+    width: calc(98% - 20px);
+    margin: 10px;
 }
 
 #frameContainer img {
-	position: absolute;
-	top: 0;
-	left: 0;
-    border: red solid 2px;
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
 }
 
 #frameContainer img:last-of-type {
-	position: relative!important;   
-	border: green solid 2px!important;
+    position: relative!important;
 }
 
 #mainPhoto {
-	position: absolute;
-	width: 80%;
-	top: 9%;
-	left: 10%;
+    position: absolute;
+    width: 80%;
+    top: 9%;
+    left: 10%;
 }
 
 #caption {
-	position: absolute;
-	left: 10%;
-	width: 80%;
-	bottom: 15%;
-	text-align: center;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
+    position: absolute;
+    left: 10%;
+    width: 80%;
+    bottom: 15%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #caption > span {
-	font-family: "Parchment-MF";
-	font-size: 1.2vw; 
-}
-
-#caption > span {
-	font-family: "Parchment-MF";
-	font-size: 1.8vw; 
+    font-family: "Parchment-MF";
+    font-size: 1.4vw;
 }

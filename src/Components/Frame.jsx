@@ -1,4 +1,6 @@
+import { style } from '@mui/system'
 import React from 'react'
+import styles from "./Frame.module.css"
 
 const Frame = ({course, form, hole}) => {
 
@@ -7,15 +9,15 @@ const Frame = ({course, form, hole}) => {
     const currLogo = () => `${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.logo}`
 
     return (
-        <div id="frameContainer">
-            <img id="mainPhoto" src={currHoleSrc()} alt={hole?.description}/>
+        <div id={styles.frameContainer}>
+            <img id={styles.mainPhoto} src={currHoleSrc()} alt={hole?.description}/>
             <img src={currMat()} alt="mat"/>
             <img src={currLogo()} alt="logo"/>
             <img src={process.env.PUBLIC_URL + '/assets/frame.png'} alt="frame"/>
-            <div id="caption">
+            <div id={styles.caption}>
                 <span>1</span>
                 <span>{course.courseName}</span>
-                <span>3</span>
+                <span>{form?.hio?.playerName}</span>
                 <span>4</span>
                 <span>5</span>
                 <span>6</span>

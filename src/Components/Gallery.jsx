@@ -1,15 +1,24 @@
 import React from 'react'
+import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material"
 
 const Gallery = ({course}) => {
     return (
-        <div id="gallery">
+        <Grid container spacing={1}>
             {course.assets.holes.map((hole, index) => {
-                return <div>
-                    <img src={`${process.env.PUBLIC_URL}/assets/${course.folder}/${hole.url}`} key={index} alt={hole.description} />
-                    <span>{hole.description}</span>
-                </div>
+                return <Grid key={index} item xs={12} md={6} lg={4}> 
+                            <Card>
+                                <CardMedia
+                                    component="img"
+                                    image={`${process.env.PUBLIC_URL}/assets/${course.folder}/${hole.url}`}
+                                    alt={hole.description}                                
+                                />
+                                <Typography gutterBottom variant="p" component="div" sx={{textAlign: "center"}}>
+                                    {hole.description}                                    
+                                </Typography>
+                            </Card>
+                        </Grid>
             })}
-        </div>
+        </Grid>
     )
 }
 

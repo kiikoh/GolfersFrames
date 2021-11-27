@@ -3,6 +3,7 @@ import courses from "../master.json"
 import Frame from '../Components/Frame'
 import Form from '../Components/Form'
 import Gallery from '../Components/Gallery'
+import { Grid, Stack } from '@mui/material'
 
 const FramePreviewPage = () => {
 
@@ -15,21 +16,17 @@ const FramePreviewPage = () => {
     }, [form.holeIndex, course.assets.holes])
 
     return (
-        <div>
-            <select onChange={(e) => setCourse(courses[e.target.value])}>
-                {courses.map((course, key) => 
-                    <option value={key} key={key}>{course.courseName}</option>
-                )}
-            </select>
-            <div id="mainContainer">
-                <div id="frameForm">
+        <Grid container spacing={1}>
+            <Grid item xs={10} md={7} lg={6}>
+                <Stack>
                     <Frame course={course} hole={hole} form={form} />
                     <Form course={course} setForm={setForm} />
-                </div>
+                </Stack>
+            </Grid>
+            <Grid item xs={2} md={5} lg={6}>
                 <Gallery course={course}/>
-            </div>
-        </div>
-    
+            </Grid>
+        </Grid>
     )
 }
 
