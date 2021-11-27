@@ -17,23 +17,25 @@
 
 #mainPhoto {
     position: absolute;
-    width: 80%;
-    top: 9%;
-    left: 10%;
+    width: 80%!important;
+    top: 15%!important;
+    left: 10%!important;
 }
 
 #caption {
     position: absolute;
     left: 10%;
     width: 80%;
-    bottom: 15%;
+    bottom: 18%;
     text-align: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #caption > span {
     font-family: "Parchment-MF";
-    font-size: 1.4vw;
+    font-size: 1vw;
+    line-height: 90%;
+    color: #797979;
+    text-transform: uppercase;
 }

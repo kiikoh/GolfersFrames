@@ -1,6 +1,6 @@
 [
     {
-        "courseName": "New Jersey National",
+        "courseName": "New Jersey National Golf Club",
         "folder": "NJN",
         "slug": "new-jersey-national",
         "public": false,
@@ -245,24 +245,7 @@
         "assets": {
             "logo": "logo.jpg",
             "holes": [
-                {
-                    "url": "hole11.jpg",
-                    "description": "Hole 11",
-                    "yards": 435,
-                    "par": 3
-                },
-                {
-                    "url": "hole12.jpg",
-                    "description": "Hole 12",
-                    "yards": 535,
-                    "par": 5
-                },
-                {
-                    "url": "hole13.jpg",
-                    "description": "Hole 13",
-                    "yards": 333,
-                    "par": 4
-                }
+            
             ]
         }
     }
