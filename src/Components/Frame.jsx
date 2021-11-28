@@ -46,11 +46,11 @@ const Frame = ({course, form, hole}) => {
                 arr[7] = form.event.awardName;
 
                 if(holeNum) {
-                    arr[3] = "Hole #" + holeNum; 
-                    arr[5] = `Par ${hole.par} - ${hole.yards} yards`
+                    arr[0] = "Hole #" + holeNum; 
+                    arr[2] = `Par ${hole.par} - ${hole.yards} yards`
                 } else {
-                    arr[3] = ""; 
-                    arr[5] = "";
+                    arr[0] = ""; 
+                    arr[2] = "";
                 }
                 break;
             case "art": 

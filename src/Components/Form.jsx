@@ -18,9 +18,9 @@ const Form = ({course, setForm, control, watch}) => {
                     render={({field}) => <FormControl fullWidth margin="dense">
                             <InputLabel id="type-label">Frame Format</InputLabel>
                             <Select {...field} label="Frame Format" labelId="type-label">
+                                <MenuItem value="art">Framed Photo Art</MenuItem>
                                 <MenuItem value="hio">Hole In One</MenuItem>
                                 <MenuItem value="event">Event Award</MenuItem>
-                                <MenuItem value="art">Framed Photo Art</MenuItem>
                             </Select>
                         </FormControl>
                     }
