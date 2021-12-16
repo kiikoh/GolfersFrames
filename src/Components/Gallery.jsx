@@ -9,7 +9,7 @@ const Gallery = ({course, setValue, form}) => {
     const theme = useTheme();
 
     return (
-        <Grid container spacing={1}>
+        <Grid container spacing={1} style={{maxHeight: '100vh', overflow: 'auto', scrollbarWidth: "none"}}>
             {course.assets.holes.map((hole, index) => {
                 return <Grid key={index} item xs={12} md={6} lg={4}> 
                             <Card 
