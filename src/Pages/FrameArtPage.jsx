@@ -8,41 +8,27 @@ import { useForm } from "react-hook-form"
 import moment from 'moment'
 import { useTheme } from '@mui/material'
 
-const FrameOrderPage = ({course}) => {
+const FrameArtPage = ({course}) => {
 
     const theme = useTheme()
 
     // const [form, setForm] = useState({});
-    const { watch, control, setValue } = useForm({
+    const { watch, setValue } = useForm({
         defaultValues: {
             type: "art",
-            size: "20x10",
             holeIndex: "0",
-            hio: {
-                date: moment(),
-                playerName: "",
-                clubUsed: "",
-                witnesses: ["", "", ""],
-                distance: ""
-            },
-            event: {
-                playerNames: "",
-                awardName: ""
-            },
-            email: "",
-            notes: ""
         }
     })
 
     return (
         <Grid container spacing={1}>
-            <Grid item xs={10} md={7}>
-                <Stack>
+            <Grid item xs={12} md={7}>
+                <Stack style={{marginTop: "6vh"}}>
+                    <Typography variant="h4" sx={{textAlign: "center", color: theme.palette.primary.main}}>Select a photo and order at your pro shop!</Typography>
                     <Frame course={course} hole={course.assets.holes[+watch("holeIndex")]} form={watch()} />
-                    <Form course={course} control={control} watch={watch}/>
                 </Stack>
             </Grid>
-            <Grid item xs={2} md={5}>
+            <Grid item xs={12} md={5}>
                 <Typography sx={{fontWeight: "bold"}} variant="h4" my={2} align="center" color={theme.palette.primary.main}>{course.courseName}</Typography>
                 <Gallery course={course} form={watch()} setValue={setValue}/>
             </Grid>
@@ -50,4 +36,4 @@ const FrameOrderPage = ({course}) => {
     )
 }
 
-export default FrameOrderPage
+export default FrameArtPage

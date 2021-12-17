@@ -8,6 +8,7 @@ import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
+import FrameArtPage from "./Pages/FrameArtPage";
 
 const theme = createTheme({
   palette: {
@@ -15,7 +16,7 @@ const theme = createTheme({
       main: '#1269af',
     },
     secondary: {
-      main: '#e7dcdc'
+      main: '#ddd'
     }
   },
   typography: {
@@ -43,7 +44,10 @@ function App() {
         <BrowserRouter>
             <Routes>
               {courses.map((course, index) => 
-                <Route key={index} path={course.slug} element={<FrameOrderPage course={course}/>} />
+                <>
+                  <Route key={index} path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
+                  <Route key={index} path={course.slug} element={<FrameArtPage course={course}/>} />
+                </>
               )}
               <Route path="*" element={<NotFound/>}/>
             </Routes>

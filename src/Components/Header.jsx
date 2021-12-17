@@ -15,7 +15,7 @@ const Header = () => {
                         alt="logo"
                         src="https://golfersflyby.com/images/GFBlogo.png"
                     />
-                    <Typography variant="h6" component="div" sx={{ textAlign: "center",flexGrow: 1 }}>
+                    <Typography variant="h4" component="div" sx={{fontWeight: "bold"}}>
                         Commemorative Framed Photos
                     </Typography>
                 </Toolbar>

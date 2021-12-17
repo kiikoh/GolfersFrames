@@ -207,7 +207,7 @@ const Form = ({course, setForm, control, watch}) => {
                     </>}
                 </Grid>
                 <Grid item xs={3}>
-                    <Typography variant="h6" align="center" color="primary">Order Form</Typography>
+                    <Typography variant="h5" align="center" color="primary" sx={{fontWeight: "bold"}}>Order Form</Typography>
                     <Controller 
                         name="notes"
                         control={control}

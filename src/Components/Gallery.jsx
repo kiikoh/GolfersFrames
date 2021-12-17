@@ -15,7 +15,8 @@ const Gallery = ({course, setValue, form}) => {
                             <Card 
                                 onClick={() => setValue("holeIndex", index)} 
                                 style={{
-                                    backgroundColor: index === form.holeIndex ? theme.palette.primary.main : theme.palette.secondary.main 
+                                    backgroundColor: index === form.holeIndex ? theme.palette.primary.main : theme.palette.secondary.main,
+                                    border: "solid #aaa 1px"
                                 }}>
                                 <CardMedia>
                                     <BlurHashImage 
