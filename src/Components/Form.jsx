@@ -73,7 +73,7 @@ const Form = ({course, setForm, control, watch}) => {
                     </Button>
                 </DialogActions>
             </Dialog>
-            <Grid container spacing={2} style={{ width: "100%", margin: .5, border: "2px solid", padding: 4, borderRadius: 15, borderColor: theme.palette.primary.main}}>
+            <Grid container spacing={2} style={{ width: "95%", margin: "auto", border: "2px solid", padding: 4, borderRadius: 15, borderColor: theme.palette.primary.main}}>
                 <Grid item xs={3}>
                     <Controller
                         name="type"

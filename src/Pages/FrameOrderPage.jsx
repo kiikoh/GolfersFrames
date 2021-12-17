@@ -36,13 +36,13 @@ const FramePreviewPage = ({course}) => {
 
     return (
         <Grid container spacing={1}>
-            <Grid item xs={10} md={6.5}>
+            <Grid item xs={10} md={7}>
                 <Stack>
                     <Frame course={course} hole={course.assets.holes[+watch("holeIndex")]} form={watch()} />
                     <Form course={course} control={control} watch={watch}/>
                 </Stack>
             </Grid>
-            <Grid item xs={2} md={5.5}>
+            <Grid item xs={2} md={5}>
                 <Typography variant="h4" my={2} align="center" color={theme.palette.primary.main}>{course.courseName}</Typography>
                 <Gallery course={course} form={watch()} setValue={setValue}/>
             </Grid>

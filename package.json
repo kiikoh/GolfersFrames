@@ -29,7 +29,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "blurhash": "node blurhashGen.js"
+    "blurhash": "node blurhashGen.js",
+    "loadImages": "node loadImages.js"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +51,8 @@
     ]
   },
   "devDependencies": {
+    "clipboardy": "^2.3.0",
+    "inquirer": "^8.2.0",
     "sharp": "^0.29.3"
   }
 }

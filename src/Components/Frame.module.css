@@ -1,7 +1,8 @@
 #frameContainer {
     position: relative;
-    width: calc(98% - 20px);
-    margin: 10px;
+    width: calc(98% - 50px);
+    margin: 25px;
+    margin-bottom: 10px;
 }
 
 #frameContainer img {
