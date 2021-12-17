@@ -121,8 +121,10 @@ const run = async () => {
             console.log("Course JSON succesfully copied to clipboard, paste it in src/master.json")
         } else if(conflict === "append") {
             const toModify = json.find(({slug}) => slug === course.slug);
-            const toAdd = course.assets.holes;
-            toModify.assets.holes.push(toAdd);
+            toModify.assets.holes.push(course.assets.holes);
+            await Promise.all(files.map((file) => {
+                return fs.copyFile(path.join(__dirname, course.folder, file), path.join(__dirname, "public/assets", course.folder, file))
+            }))
         }
 
     } else {
