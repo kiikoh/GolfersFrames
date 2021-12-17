@@ -5,6 +5,7 @@ import styles from "./Frame.module.css"
 
 const Frame = ({course, form, hole}) => {
 
+    const currFrameSrc = () => `${process.env.PUBLIC_URL}/assets/${form.color}.png`;
     const currHoleSrc = () => `${process.env.PUBLIC_URL}/assets/${course.folder}/${hole?.url || "hole1.jpg"}`
     const currMat = () => `${process.env.PUBLIC_URL}/assets/${form.type === "art" ? "1line.png" : "3line.png"}` // move into src
     const currLogo = () => `${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.logo}`
@@ -59,7 +60,7 @@ const Frame = ({course, form, hole}) => {
                 }
                 break;
             case "art": 
-                arr = arr.slice(0, 3)
+                arr = arr.slice(0, 6)
                 if(holeNum) {
                     arr[0] = "Hole #" + holeNum; 
                     arr[2] = `Par ${hole.par} - ${hole.yards} yards`
@@ -81,7 +82,7 @@ const Frame = ({course, form, hole}) => {
             <img id={styles.mainPhoto} src={currHoleSrc()} alt={hole?.description}/>
             <img src={currMat()} alt="mat"/>
             <img src={currLogo()} alt="logo"/>
-            <img src={process.env.PUBLIC_URL + '/assets/frame.png'} alt="frame"/>
+            <img src={currFrameSrc()} alt="frame"/>
             <div id={styles.caption}>
                 {buildCaption().map((text, index) => 
                     <span key={index}>{text}</span>

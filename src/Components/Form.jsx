@@ -19,6 +19,7 @@ const Form = ({course, setForm, control, watch}) => {
     const generateConfirmation = () => {
         const response = watch();
         let fields = [];
+        fields.push("Frame Color: " + response.color)
         fields.push("Frame Size: " + response.size)
         fields.push("Hole: " + course.assets.holes[response.holeIndex].description)
         switch(type) {
@@ -89,6 +90,18 @@ const Form = ({course, setForm, control, watch}) => {
                         }
                     />
                     <Controller
+                        name="color"
+                        control={control}
+                        render={({field}) => <FormControl fullWidth margin="dense">
+                                <InputLabel id="color-label">Frame Color</InputLabel>
+                                <Select size="small" {...field} label="Frame Color" labelId="color-label">
+                                    <MenuItem value="red">Red</MenuItem>
+                                    <MenuItem value="brown">Brown</MenuItem>
+                                </Select>
+                            </FormControl>
+                        }
+                    />
+                    <Controller
                         name="size"
                         control={control}
                         render={({field}) => <FormControl fullWidth margin="dense">
@@ -97,7 +110,7 @@ const Form = ({course, setForm, control, watch}) => {
                                     <MenuItem value="20x10">20x10</MenuItem>
                                     <MenuItem value="24x12">24x12</MenuItem>
                                     <MenuItem value="30x15">30x15</MenuItem>
-                                    <MenuItem value="30x15">40x20</MenuItem>
+                                    <MenuItem value="40x20">40x20</MenuItem>
                                 </Select>
                             </FormControl>
                         }
