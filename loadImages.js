@@ -72,8 +72,6 @@ const run = async () => {
         responses.push({url: file, ...input, blurhash})
     }
 
-    //append to master.json file, using slug to check if it exists, if exists, ask to overwrite
-
     const course = {
         ...courseInfo,
         assets: {
@@ -150,8 +148,6 @@ const run = async () => {
     }
 
 }
-
-    
 
 run();
 

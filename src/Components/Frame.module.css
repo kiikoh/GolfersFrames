@@ -35,6 +35,7 @@
 
 #caption > span {
     font-family: "Parchment-MF";
+    letter-spacing: .06rem;
     font-size: 1vw;
     line-height: 90%;
     color: #797979;

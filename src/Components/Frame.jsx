@@ -26,17 +26,22 @@ const Frame = ({course, form, hole}) => {
                 // Escape the rest if not on a hole
                 if(!holeNum) return arr;
                 
-                arr[4] = "Hole in one - " + form.hio.playerName + " - " + form.hio.date.format("MMMM D, YYYY")
+                arr[4] = "Hole in one - " + form.hio.playerName
+                arr[7] = form.hio.date.format("MMMM D, YYYY")
 
                 let witnesses = form.hio.witnesses.filter(wit => wit !== "")
                 if(witnesses.length > 0) {
-                    console.log(witnesses)
                     arr[0] = "Witnessed By:"
                     arr[3] = witnesses.slice(0,2).join(", ")
                     arr[6] = witnesses[2] || ""
+
+
+                    arr[2] = "Hole #" + holeNum
+                } else {
+                    arr[3] = "Hole #" + holeNum
                 }
 
-                arr[2] = "Hole #" + holeNum 
+                 
                 arr[5] = `Par ${hole.par} - ${form.hio.distance} yards`
                 arr[8] = form.hio.clubUsed; 
 
