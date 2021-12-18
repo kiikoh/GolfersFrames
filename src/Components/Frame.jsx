@@ -5,7 +5,7 @@ import styles from "./Frame.module.css"
 
 const Frame = ({course, form, hole}) => {
 
-    const currFrameSrc = () => `${process.env.PUBLIC_URL}/assets/${form.color}.png`;
+    const currFrameSrc = () => `${process.env.PUBLIC_URL}/assets/frame-${form.color || "brown"}.png`;
     const currHoleSrc = () => `${process.env.PUBLIC_URL}/assets/${course.folder}/${hole?.url || "hole1.jpg"}`
     const currMat = () => `${process.env.PUBLIC_URL}/assets/${form.type === "art" ? "1line.png" : "3line.png"}` // move into src
     const currLogo = () => `${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.logo}`
