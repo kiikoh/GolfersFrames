@@ -16,6 +16,27 @@ const Form = ({course, setForm, control, watch}) => {
         setOpen(true);
     }
 
+    const isValid = () => {
+        const form = watch()
+        const emailRegex = /([-!#-'*+/-9=?A-Z^-~]+(\.[-!#-'*+/-9=?A-Z^-~]+)*|"([]!#-[^-~ \t]|(\\[\t -~]))+")@[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)+/
+        if(!emailRegex.test(form.email)) return false;
+        switch(type){
+            case "art":
+                return true;
+            case "hio": 
+                if(!form.hio.playerName) return false
+                if(!form.hio.distance) return false
+                if(!form.hio.date) return false
+                return true;
+            case "event": 
+                if(!form.event.playerNames) return false
+                if(!form.event.awardName) return false
+                return true;
+            default: 
+                return false;
+        }
+    }
+
     const generateConfirmation = () => {
         const response = watch();
         let fields = [];
@@ -35,13 +56,13 @@ const Form = ({course, setForm, control, watch}) => {
             }
             case "hio": {
                 fields.push("Type: Hole In One")
-                fields.push("Date: " + response.hio.date)
+                fields.push("Date: " + response.hio.date.format("MMMM D, YYYY"))
                 fields.push("Player Name: " + response.hio.playerName)
-                fields.push("Club Used: " + response.hio.clubUsed)
+                fields.push("Club Used: " + (response.hio.clubUsed || "No club provided"))
                 fields.push("Distance: " + response.hio.distance)
-                fields.push("Witness 1: " + response.hio.witnesses[0])
-                fields.push("Witness 2: " + response.hio.witnesses[1])
-                fields.push("Witness 3: " + response.hio.witnesses[2])
+                fields.push("Witness 1: " + (response.hio.witnesses[0] || "No witness provided"))
+                fields.push("Witness 2: " + (response.hio.witnesses[1] || "No witness provided"))
+                fields.push("Witness 3: " + (response.hio.witnesses[2] || "No witness provided"))
                 break;
             }
             default: {
@@ -50,7 +71,7 @@ const Form = ({course, setForm, control, watch}) => {
             }
         }
 
-        fields.push("Notes: " + response.notes)
+        fields.push("Notes: " + (response.notes  || "No notes provided"))
         fields.push("Email: " + response.email)
 
         return fields.map(text => <Typography variant="h6">{text}</Typography>)
@@ -68,9 +89,9 @@ const Form = ({course, setForm, control, watch}) => {
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
-                    <Button onClick={() => setOpen(false)}>Disagree</Button>
+                    <Button onClick={() => setOpen(false)}>Go Back</Button>
                     <Button onClick={() => setOpen(false)} autoFocus>
-                        Agree
+                        Place Order
                     </Button>
                 </DialogActions>
             </Dialog>
@@ -95,8 +116,8 @@ const Form = ({course, setForm, control, watch}) => {
                         render={({field}) => <FormControl fullWidth margin="dense">
                                 <InputLabel id="color-label">Frame Color</InputLabel>
                                 <Select size="small" {...field} label="Frame Color" labelId="color-label">
-                                    <MenuItem value="red">Red</MenuItem>
-                                    <MenuItem value="brown">Brown</MenuItem>
+                                    <MenuItem value="brown">Brown Mahogany</MenuItem>
+                                    <MenuItem value="red">Red Mahogany</MenuItem>
                                 </Select>
                             </FormControl>
                         }
@@ -232,10 +253,10 @@ const Form = ({course, setForm, control, watch}) => {
                         name="email"
                         control={control}
                         render={({field}) => 
-                            <TextField size="small" label="Email" variant="outlined" {...field} fullWidth margin="dense"/>
+                            <TextField required size="small" label="Email" variant="outlined" {...field} fullWidth margin="dense"/>
                         }
                     />
-                    <Button onClick={handleSubmit} variant="contained" fullWidth>Submit</Button>
+                    <Button disabled={!isValid()} onClick={handleSubmit} variant="contained" fullWidth>Submit</Button>
                 </Grid>
             </Grid>
         </>

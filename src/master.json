@@ -283,7 +283,15 @@
         "public": false,
         "assets": {
             "logo": "logo.jpg",
-            "holes": []
+            "holes": [
+                {
+                    "url": "njnclub.jpg",
+                    "description": "Clubhouse",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "hDDm8M_L4nV|XAV?IWof%PNIWGxbn-jdf6W;pMkF%NjcM_bDWVbHx|x]X9M_X3tRbIogyGe?XAxvk9X5t6NG"
+                }
+            ]
         }
     }
 ]

@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
 import FrameArtPage from "./Pages/FrameArtPage";
+import HomePage from "./Pages/HomePage";
 
 const theme = createTheme({
   palette: {
@@ -23,15 +24,11 @@ const theme = createTheme({
     fontFamily: [
       'Kalam',
       '-apple-system',
-      'BlinkMacSystemFont',
       '"Segoe UI"',
       'Roboto',
       '"Helvetica Neue"',
       'Arial',
-      'sans-serif',
-      '"Apple Color Emoji"',
-      '"Segoe UI Emoji"',
-      '"Segoe UI Symbol"',
+      'sans-serif'
     ].join(','),
   },
 });
@@ -39,10 +36,11 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Header />
       <LocalizationProvider dateAdapter={DateAdapter}>
         <BrowserRouter>
+            <Header />
             <Routes>
+              <Route exact path="/" element={<HomePage/>}/>
               {courses.map((course, index) => 
                 <>
                   <Route key={index} path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
@@ -51,9 +49,9 @@ function App() {
               )}
               <Route path="*" element={<NotFound/>}/>
             </Routes>
+            <Footer />
         </BrowserRouter>
       </LocalizationProvider>
-      <Footer />
     </ThemeProvider>
   );
 }

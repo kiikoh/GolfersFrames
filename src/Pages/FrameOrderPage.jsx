@@ -16,7 +16,7 @@ const FrameOrderPage = ({course}) => {
     const { watch, control, setValue } = useForm({
         defaultValues: {
             type: "art",
-            color: "red",
+            color: "brown",
             size: "20x10",
             holeIndex: "0",
             hio: {
