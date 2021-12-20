@@ -30,7 +30,7 @@
     bottom: 16%;
     text-align: center;
     display: grid;
-    grid-template-columns: 1fr 35% 1fr;
+    grid-template-columns: 1fr 38% 1fr;
 }
 
 #caption > span {
