@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardContent, CardMedia, Grid, Typography } from "@mui/material"
+import { Card, CardMedia, Grid, Typography } from "@mui/material"
 import { useTheme } from '@mui/styles';
 import {} from "react-blurhash"
 import BlurHashImage from './BlurHashImage';

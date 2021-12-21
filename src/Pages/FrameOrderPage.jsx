@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import courses from "../master.json"
+import React from 'react'
 import Frame from '../Components/Frame'
 import Form from '../Components/Form'
 import Gallery from '../Components/Gallery'

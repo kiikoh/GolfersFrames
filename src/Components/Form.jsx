@@ -3,6 +3,7 @@ import React, {useState} from 'react'
 import { Controller} from "react-hook-form"
 import DatePicker from '@mui/lab/DatePicker';
 import { useTheme } from '@mui/material';
+import toast, { Toaster } from 'react-hot-toast';
 
 
 const Form = ({course, setForm, control, watch}) => {
@@ -12,12 +13,31 @@ const Form = ({course, setForm, control, watch}) => {
 
     const type = watch("type");
 
-    const handleSubmit = () => {
-        setOpen(true);
+    const handleSubmit = async () => {
+        const postReq = fetch("/placeorder", {
+            method: "POST",
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                orderDetails: generateConfirmation(), 
+                course: course.courseName,
+                ...watch(),
+            })
+        }) 
+        toast.promise(
+            postReq,
+            {
+                loading: 'Submitting your order...',
+                success: (data) => `Successfully placed order ${data.name}`,
+                error: (err) => `This just happened: ${err.toString()}`,
+            }
+        );
+
+        setOpen(false);
     }
 
     const isValid = () => {
         const form = watch()
+        // eslint-disable-next-line
         const emailRegex = /([-!#-'*+/-9=?A-Z^-~]+(\.[-!#-'*+/-9=?A-Z^-~]+)*|"([]!#-[^-~ \t]|(\\[\t -~]))+")@[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)+/
         if(!emailRegex.test(form.email)) return false;
         switch(type){
@@ -40,6 +60,7 @@ const Form = ({course, setForm, control, watch}) => {
     const generateConfirmation = () => {
         const response = watch();
         let fields = [];
+        fields.push("Course: " + course.courseName)
         fields.push("Frame Color: " + response.color)
         fields.push("Frame Size: " + response.size)
         fields.push("Hole: " + course.assets.holes[response.holeIndex].description)
@@ -72,25 +93,44 @@ const Form = ({course, setForm, control, watch}) => {
         }
 
         fields.push("Notes: " + (response.notes  || "No notes provided"))
-        fields.push("Email: " + response.email)
 
-        return fields.map(text => <Typography variant="h6">{text}</Typography>)
+        return fields
     }
 
 
     return ( <>
+            <Toaster
+                position="bottom-center"
+                gutter={8}
+                toastOptions={{
+                    // Define default options
+                    duration: 5000,
+                    style: {
+                        background: '#363636',
+                        color: '#fff',
+                    },
+                    // Default options for specific types
+                    success: {
+                    duration: 3000,
+                        theme: {
+                            primary: 'green',
+                            secondary: 'black',
+                        },
+                    },
+                }}
+            />
             <Dialog fullWidth maxWidth="sm" open={open} onClose={() => setOpen(false)}>
                 <DialogTitle>
                     Confirm Order Details
                 </DialogTitle>
                 <DialogContent>
                     <DialogContentText>
-                        {generateConfirmation()}
+                        {generateConfirmation().map(text => <Typography variant="h6">{text}</Typography>)}
                     </DialogContentText>
                 </DialogContent>
                 <DialogActions>
                     <Button onClick={() => setOpen(false)}>Go Back</Button>
-                    <Button onClick={() => setOpen(false)} autoFocus>
+                    <Button onClick={handleSubmit} autoFocus>
                         Place Order
                     </Button>
                 </DialogActions>
@@ -256,7 +296,7 @@ const Form = ({course, setForm, control, watch}) => {
                             <TextField required size="small" label="Email" variant="outlined" {...field} fullWidth margin="dense"/>
                         }
                     />
-                    <Button disabled={!isValid()} onClick={handleSubmit} variant="contained" fullWidth>Submit</Button>
+                    <Button disabled={!isValid()} onClick={() => setOpen(true)} variant="contained" fullWidth>Submit</Button>
                 </Grid>
             </Grid>
         </>
