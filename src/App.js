@@ -37,7 +37,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <LocalizationProvider dateAdapter={DateAdapter}>
-        <BrowserRouter>
+        <BrowserRouter basename="/frames">
             <Header />
             <Routes>
               <Route exact path="/" element={<HomePage/>}/>

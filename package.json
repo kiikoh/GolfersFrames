@@ -56,5 +56,6 @@
     "inquirer": "^8.2.0",
     "sharp": "^0.29.3"
   },
-  "proxy": "http://localhost:3001"
+  "proxy": "http://localhost:3001",
+  "hostname": "/frames"
 }
