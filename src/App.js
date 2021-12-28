@@ -5,12 +5,13 @@ import "./styles.css";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import DateAdapter from '@mui/lab/AdapterMoment';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
 import FrameArtPage from "./Pages/FrameArtPage";
 import HomePage from "./Pages/HomePage";
 import usePageTracking from "./usePageTracking"
+import { Fragment } from "react";
 
 const theme = createTheme({
   palette: {
@@ -41,20 +42,18 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <LocalizationProvider dateAdapter={DateAdapter}>
-        <BrowserRouter basename="/frames">
-            <Header />
-            <Routes>
-              <Route exact path="/" element={<HomePage/>}/>
-              {courses.map((course, index) => 
-                <>
-                  <Route key={index} path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
-                  <Route key={index} path={course.slug} element={<FrameArtPage course={course}/>} />
-                </>
-              )}
-              <Route path="*" element={<NotFound/>}/>
-            </Routes>
-            <Footer />
-        </BrowserRouter>
+          <Header />
+          <Routes>
+            <Route exact path="/" element={<HomePage/>}/>
+            {courses.map((course, index) => 
+              <Fragment key={index}>
+                <Route  path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
+                <Route key={index} path={course.slug} element={<FrameArtPage course={course}/>} />
+              </Fragment>
+            )}
+            <Route path="*" element={<NotFound/>}/>
+          </Routes>
+          <Footer />
       </LocalizationProvider>
     </ThemeProvider>
   );
