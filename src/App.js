@@ -10,6 +10,7 @@ import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
 import FrameArtPage from "./Pages/FrameArtPage";
 import HomePage from "./Pages/HomePage";
+import usePageTracking from "./usePageTracking"
 
 const theme = createTheme({
   palette: {
@@ -34,6 +35,9 @@ const theme = createTheme({
 });
 
 function App() {
+
+  usePageTracking();
+
   return (
     <ThemeProvider theme={theme}>
       <LocalizationProvider dateAdapter={DateAdapter}>
