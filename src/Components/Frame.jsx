@@ -23,6 +23,7 @@ const Frame = ({course, form, hole}) => {
         arr[1] = course.courseName
         let holeNum = null;
         holeNum = hole.description.split(" ").find((str) => !isNaN(str) && !isNaN(parseFloat(str)))
+        if(hole.parValue == null && hole.yards == null) holeNum = null;
 
         switch(form.type) {
             case "hio":
