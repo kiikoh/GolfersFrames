@@ -4,6 +4,7 @@
         "folder": "NJN",
         "slug": "new-jersey-national",
         "public": false,
+        "thumbnailIndex": 33,
         "assets": {
             "logo": "njnlogo.png",
             "holes": [
@@ -281,6 +282,7 @@
         "folder": "SB",
         "slug": "spring-brook",
         "public": true,
+        "thumbnailIndex": 29,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -712,6 +714,7 @@
         "folder": "FER",
         "slug": "fiddlers-river",
         "public": true,
+        "thumbnailIndex": 5,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -884,6 +887,7 @@
         "folder": "FEF",
         "slug": "fiddlers-forest",
         "public": true,
+        "thumbnailIndex": 4,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -1063,6 +1067,7 @@
         "folder": "FEM",
         "slug": "fiddlers-meadow",
         "public": true,
+        "thumbnailIndex": 14,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -1284,6 +1289,7 @@
         "folder": "BR",
         "slug": "basking-ridge",
         "public": true,
+        "thumbnailIndex": 5,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -1358,6 +1364,7 @@
         "folder": "DR",
         "slug": "deer-run",
         "public": true,
+        "thumbnailIndex": 13,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -1474,6 +1481,7 @@
         "folder": "TC",
         "slug": "trump-national",
         "public": true,
+        "thumbnailIndex": 40,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -1786,6 +1794,7 @@
         "folder": "UM",
         "slug": "upper-montclair",
         "public": true,
+        "thumbnailIndex": 16,
         "assets": {
             "logo": "logo.png",
             "holes": [
