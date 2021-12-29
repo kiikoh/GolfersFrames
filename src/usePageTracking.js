@@ -15,7 +15,7 @@ const usePageTracking = () => {
 
   useEffect(() => {
     if (initialized) {
-      ReactGA.pageview(location.pathname + location.search);
+      ReactGA.pageview("/frames/" + location.pathname + location.search);
     }
   }, [initialized, location]);
 };
