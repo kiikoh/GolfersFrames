@@ -27,7 +27,7 @@ const Form = ({course, setForm, control, watch}) => {
             postReq,
             {
                 loading: 'Submitting your order...',
-                success: (data) => `Successfully placed order`,
+                success: (data) => `Successfully placed order!`,
                 error: (err) => `This just happened: ${err}`,
             }
         );
