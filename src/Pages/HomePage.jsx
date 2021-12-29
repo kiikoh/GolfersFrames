@@ -21,7 +21,7 @@ const HomePage = () => {
                                 style={{border: "solid #aaa 1px"}}>
                                 <CardMedia>
                                     <BlurHashImage 
-                                        src={`${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.holes[0].url}`}
+                                        src={`${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.holes[course.thumbnailIndex || 0].url}`}
                                         alt={course.assets.holes[0].description} 
                                         hash={course.assets.holes[0].blurhash}
                                     />
