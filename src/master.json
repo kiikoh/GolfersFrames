@@ -2136,5 +2136,44 @@
                 }
             ]
         }
+    },
+    {
+        "courseName": "TEST",
+        "folder": "AA",
+        "slug": "test",
+        "public": false,
+        "assets": {
+            "logo": "logo.png",
+            "holes": [
+                {
+                    "url": "Hole8.jpg",
+                    "description": "hole 8tee",
+                    "yards": 141,
+                    "par": 3,
+                    "blurhash": "hfG+y,gNIXRoS1j?a#kBN+jLoxX8RkjuWBWEpMxuaeWFWCWCoLj[.9ofWBS4W;ofj?a#tToIWUWYWEoMWEjb"
+                },
+                {
+                    "url": "Hole8a.jpg",
+                    "description": "hole 8",
+                    "yards": 141,
+                    "par": 3,
+                    "blurhash": "hcEWQ?xuMzjbbtf+V[j[Wyt8ous.V]WCj[az%%ogaKocoLWWf%oe%iofe-oJbaWXWCjbtTj?jXoIRlfij@bH"
+                },
+                {
+                    "url": "Hole9a.jpg",
+                    "description": "hole 9test",
+                    "yards": 400,
+                    "par": 4,
+                    "blurhash": "hZGSe{r.H@tRV@o#NGj]tWRNjVo#jXt8RkofpKRhabozaeoza}jv%Ns,MyWBt5W=kBoLtQjvWUadxZofbIoc"
+                },
+                {
+                    "url": "Hole9tee.jpg",
+                    "description": "hole 9 tee",
+                    "yards": 400,
+                    "par": 4,
+                    "blurhash": "hdG+X8V;IUNdR-xaahkWOLi[s%s;oMS5WCt6%PM_ffWpWCoMofoM%OawM{ocaxogkCWUX9t5aeWBj=bcj^ni"
+                }
+            ]
+        }
     }
 ]
