@@ -20,15 +20,20 @@ const Form = ({course, setForm, control, watch}) => {
             body: JSON.stringify({
                 orderDetails: generateConfirmation(), 
                 course: course.courseName,
+                imgSrc: `${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.holes[watch("holeIndex")]?.url}`,
                 ...watch(),
             })
+        }).then((res) => {
+            if(res.status === 500) throw new Error("Could not reach ordering servers")
+            if(res.status === 400) throw new Error("Invalid Form")
+            if(res.status !== 201) throw new Error("Something went wrong")
         })
         toast.promise(
             postReq,
             {
                 loading: 'Submitting your order...',
                 success: () => `Successfully placed order!`,
-                error: (err) => `This just happened: ${err}`,
+                error: (err) => "" + err,
             }
         );
 
