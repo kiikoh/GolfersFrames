@@ -3,16 +3,28 @@ import React from 'react'
 import BlurHashImage from '../Components/BlurHashImage'
 import courses from "../master.json"
 import { useNavigate } from "react-router-dom";
+import sampleFrame from "../assets/sampleframe.png"
+import { useTheme } from '@mui/material'
 
 const HomePage = () => {
 
     const navigate = useNavigate();
+    const theme = useTheme()
 
     return (
         <Grid container mt={3}>
+            
             <Grid item xs={0} md={1}></Grid>
             <Grid item xs={12} md={10}>
-                <Typography variant="h2" align="center">Our Courses</Typography>
+                <Grid container mb={3} spacing={2} alignItems="center" direction="row-reverse">
+                    <Grid item xs={12} md={4}>
+                        <Typography variant="h2" sx={{textAlign: "center", fontWeight: "bold"}} color={theme.palette.primary.main}>Customizable High Quality Framed Photos</Typography>
+                    </Grid>
+                    <Grid item xs={12} md={8}>
+                        <img src={sampleFrame} alt="Example Frame" style={{width: "100%"}}/>
+                    </Grid>
+                </Grid>
+                <Typography variant="h2" align="center" color={theme.palette.primary.main}>Our Courses</Typography>
                 <Grid container spacing={2} mt={2}>
                     {courses.map((course, index) => 
                         <Grid key={index} item xs={6} md={4} lg={3}>
