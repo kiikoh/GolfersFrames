@@ -17,10 +17,10 @@ const HomePage = () => {
             <Grid item xs={0} md={1}></Grid>
             <Grid item xs={12} md={10}>
                 <Grid container mb={3} spacing={2} alignItems="center" direction="row-reverse">
-                    <Grid item xs={12} md={4}>
-                        <Typography variant="h2" sx={{textAlign: "center", fontWeight: "bold"}} color={theme.palette.primary.main}>Customizable High Quality Framed Photos</Typography>
+                    <Grid item xs={12} md={6}>
+                        <Typography variant="h4" sx={{textAlign: "center", fontWeight: "bold"}} color={theme.palette.primary.main}>Customizable High Quality Framed Photos</Typography>
                     </Grid>
-                    <Grid item xs={12} md={8}>
+                    <Grid item xs={12} md={6}>
                         <img src={sampleFrame} alt="Example Frame" style={{width: "100%"}}/>
                     </Grid>
                 </Grid>
