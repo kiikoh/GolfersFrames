@@ -4,13 +4,20 @@
         "folder": "NJN",
         "slug": "new-jersey-national",
         "public": false,
-        "thumbnailIndex": 33,
+        "thumbnailIndex": 34,
         "assets": {
             "logo": "njnlogo.png",
             "holes": [
                 {
                     "url": "hole1.jpg",
                     "description": "Hole 1 Fairway",
+                    "yards": 441,
+                    "par": 4,
+                    "blurhash": "hmGc3z%2emaJbcocWVbcxzt7acn#ozaxa#bck@bcfha{ofjYj[kCpIbca$ogjYoIazWXV_kCbckDj=jYWVWC"
+                },
+                {
+                    "url": "1t.jpg",
+                    "description": "Hole 1 Tee",
                     "yards": 441,
                     "par": 4,
                     "blurhash": "hmGc3z%2emaJbcocWVbcxzt7acn#ozaxa#bck@bcfha{ofjYj[kCpIbca$ogjYoIazWXV_kCbckDj=jYWVWC"
