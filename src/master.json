@@ -1815,10 +1815,17 @@
         "folder": "UM",
         "slug": "upper-montclair",
         "public": true,
-        "thumbnailIndex": 16,
+        "thumbnailIndex": 17,
         "assets": {
             "logo": "logo.png",
             "holes": [
+                {
+                    "url": "e2.jpg",
+                    "description": "Hole 2 - East",
+                    "yards": 181,
+                    "par": 3,
+                    "blurhash": "hfEpWRaJozaIM_WBj[WAx|WAj]M_V@WXs:t6x|awodadRia#odWB.8aeRjoLWAofjZV@N2a}adofoMofj?af"
+                },
                 {
                     "url": "e2g.jpg",
                     "description": "Hole 2 Green - East",
