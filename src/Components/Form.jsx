@@ -57,6 +57,7 @@ const Form = ({ course, setForm, control, watch }) => {
     const form = watch();
     // eslint-disable-next-line
     const emailRegex =
+      // eslint-disable-next-line no-empty-character-class
       /([-!#-'*+/-9=?A-Z^-~]+(\.[-!#-'*+/-9=?A-Z^-~]+)*|"([]!#-[^-~ \t]|(\\[\t -~]))+")@[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?(\.[0-9A-Za-z]([0-9A-Za-z-]{0,61}[0-9A-Za-z])?)+/;
     if (!emailRegex.test(form.email)) return false;
     switch (type) {
