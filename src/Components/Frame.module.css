@@ -12,6 +12,13 @@
     width: 100%;
 }
 
+#frameContainer #golfball {
+    position: absolute;
+    top: 67%!important;
+    left: 81%!important;
+    width: 9%!important;
+}
+
 #frameContainer img:last-of-type {
     position: relative!important;
 }
@@ -33,10 +40,16 @@
     grid-template-columns: 1fr 38% 1fr;
 }
 
+
+#caption.withBall {
+    width: 72%;
+    grid-template-columns: 34.444% 42.222% 1fr!important;
+}
+
 #caption > span {
     font-family: "Parchment-MF";
     letter-spacing: .06rem;
-    font-size: 1vw;
+    font-size: .9vw;
     line-height: 90%;
     color: #797979;
     text-transform: uppercase;
