@@ -6,8 +6,8 @@ import { Controller, useForm } from "react-hook-form"
 import { useTheme } from '@mui/material'
 import {useIdle} from "react-use"
 
-const IDLE_TIME = 120;
-const SLIDE_TIME = 3;
+const IDLE_TIME = 30;
+const SLIDE_TIME = 4;
 
 const FrameArtPage = ({course, children}) => {
 
