@@ -9,7 +9,7 @@ import {useIdle} from "react-use"
 const IDLE_TIME = 120;
 const SLIDE_TIME = 3;
 
-const FrameArtPage = ({course}) => {
+const FrameArtPage = ({course, children}) => {
 
     const theme = useTheme()
     const isIdle = useIdle(IDLE_TIME * 1000, true);
@@ -60,7 +60,7 @@ const FrameArtPage = ({course}) => {
                         </Grid>
                         <Grid item xs={4}></Grid>
                     </Grid>
-                    
+                    {children}
                 </Stack>
             </Grid>
             <Grid item xs={12} md={5}>

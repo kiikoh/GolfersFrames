@@ -10,6 +10,7 @@ import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
 import FrameArtPage from "./Pages/FrameArtPage";
 import HomePage from "./Pages/HomePage";
+import MultiArtPage from "./Pages/MultiArtPage"
 import usePageTracking from "./usePageTracking"
 import { Fragment } from "react";
 
@@ -51,6 +52,7 @@ function App() {
                 <Route key={index} path={course.slug} element={<FrameArtPage course={course}/>} />
               </Fragment>
             )}
+            <Route path="/multi" element={<MultiArtPage />}/>
             <Route path="*" element={<NotFound/>}/>
           </Routes>
           <Footer />
