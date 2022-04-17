@@ -17,7 +17,6 @@ const MultiArtPage = () => {
     const subset = query.getAll("course").map(id => courses[id]);
     const [courseIndex, setCourseIndex] = useState(0);
 
-    console.log(subset[courseIndex])
     return <>
         <FrameArtPage course={subset[courseIndex]}>
             <Grid container spacing={2} padding={3}>
@@ -25,7 +24,7 @@ const MultiArtPage = () => {
                             <Grid key={index} item xs={4}>
                                 <Card
                                     onClick={() => setCourseIndex(index)}
-                                    style={{border: "solid #aaa 1px", backgroundColor: "#1269af", color: "white"}}>
+                                    style={{border: "solid #aaa 1px", backgroundColor: index !== courseIndex ? "#ddd" : "#1269af", color: index !== courseIndex ? "black" : "white"}}>
                                     <CardMedia>
                                         <BlurHashImage 
                                             src={`${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.holes[course.thumbnailIndex || 0].url}`}
