@@ -4,7 +4,6 @@ import FrameArtPage from './FrameArtPage';
 import courses from "../master.json"
 import { Card, CardMedia, Grid, Typography } from '@mui/material';
 import BlurHashImage from '../Components/BlurHashImage';
-import { useTheme } from '@mui/styles';
 
 function useQuery() {
     const { search } = useLocation();
