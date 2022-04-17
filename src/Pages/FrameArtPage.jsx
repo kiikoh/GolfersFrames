@@ -25,8 +25,7 @@ const FrameArtPage = ({course}) => {
 
     const advanceSlide = () => {
         if (!isIdle) return;
-        const currHole = +watch("holeIndex");
-        setValue("holeIndex", String((currHole+1) % course.assets.holes.length))
+        setValue("holeIndex", String(Math.floor(Math.random() * course.assets.holes.length)))
     }
 
     useEffect(() => {
