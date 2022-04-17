@@ -1,13 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Frame from '../Components/Frame'
 import Gallery from '../Components/Gallery'
 import { FormControl, Grid, InputLabel, MenuItem, Select, Stack, Typography } from '@mui/material'
 import { Controller, useForm } from "react-hook-form"
 import { useTheme } from '@mui/material'
+import {useIdle} from "react-use"
+
+const IDLE_TIME = 120;
+const SLIDE_TIME = 3;
 
 const FrameArtPage = ({course}) => {
 
     const theme = useTheme()
+    const isIdle = useIdle(IDLE_TIME * 1000, true);
 
     // const [form, setForm] = useState({});
     const { watch, setValue, control } = useForm({
@@ -15,6 +20,20 @@ const FrameArtPage = ({course}) => {
             type: "art",
             holeIndex: "0",
             color: "brown"
+        }
+    })
+
+    const advanceSlide = () => {
+        if (!isIdle) return;
+        const currHole = +watch("holeIndex");
+        setValue("holeIndex", String((currHole+1) % course.assets.holes.length))
+    }
+
+    useEffect(() => {
+        const changeSlideInterval = setInterval(advanceSlide, SLIDE_TIME * 1000)
+
+        return () => {
+            clearInterval(changeSlideInterval)
         }
     })
 
