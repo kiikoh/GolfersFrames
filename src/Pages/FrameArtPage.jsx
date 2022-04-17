@@ -39,7 +39,7 @@ const FrameArtPage = ({course, children}) => {
     return (
         <Grid container spacing={1}>
             <Grid item xs={12} md={7}>
-                <Stack style={{marginTop: "6vh"}}>
+                <Stack style={{marginTop: "2vh"}}>
                     <Typography variant="h4" sx={{textAlign: "center", color: theme.palette.primary.main}}>Select a photo and order at your pro shop!</Typography>
                     <Frame course={course} hole={course.assets.holes[+watch("holeIndex")]} form={watch()} />
                     <Grid container>
