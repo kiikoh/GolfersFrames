@@ -14,7 +14,6 @@ function useQuery() {
 
 const MultiArtPage = () => {
     let query = useQuery();
-    const theme = useTheme()
 
     const subset = query.getAll("course").map(id => courses[id]);
     const [courseIndex, setCourseIndex] = useState(0);
