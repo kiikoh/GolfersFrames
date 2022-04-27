@@ -13,6 +13,7 @@ import HomePage from "./Pages/HomePage";
 import MultiArtPage from "./Pages/MultiArtPage"
 import usePageTracking from "./usePageTracking"
 import { Fragment } from "react";
+import FiddlersElbowPage from "./Pages/FiddlersElbowPage"
 
 const theme = createTheme({
   palette: {
@@ -48,10 +49,11 @@ function App() {
             <Route exact path="/" element={<HomePage/>}/>
             {courses.map((course, index) => 
               <Fragment key={index}>
-                <Route  path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
-                <Route key={index} path={course.slug} element={<FrameArtPage course={course}/>} />
+                <Route path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
+                <Route path={course.slug} element={<FrameArtPage course={course}/>} />
               </Fragment>
             )}
+            <Route path="/fiddlers" element={<FiddlersElbowPage />}/>
             <Route path="/multi" element={<MultiArtPage />}/>
             <Route path="*" element={<NotFound/>}/>
           </Routes>
