@@ -64,6 +64,7 @@ const Form = ({ course, setForm, control, watch }) => {
       case "art":
         return true;
       case "hio":
+      case "hiowb":
         if (!form.hio.playerName) return false;
         if (!form.hio.distance) return false;
         if (!form.hio.date) return false;
