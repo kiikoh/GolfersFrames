@@ -1557,7 +1557,7 @@
         "courseName": "Trump National Golf Club",
         "folder": "TC",
         "slug": "trump-national",
-        "public": true,
+        "public": false,
         "thumbnailIndex": 40,
         "assets": {
             "logo": "logo.png",
