@@ -3,7 +3,7 @@
         "courseName": "New Jersey National Golf Club",
         "folder": "NJN",
         "slug": "new-jersey-national",
-        "public": false,
+        "public": true,
         "thumbnailIndex": 34,
         "assets": {
             "logo": "njnlogo.png",
