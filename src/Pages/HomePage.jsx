@@ -26,7 +26,7 @@ const HomePage = () => {
                 </Grid>
                 <Typography variant="h2" align="center" color={theme.palette.primary.main}>Our Courses</Typography>
                 <Grid container spacing={2} mt={2}>
-                    {courses.map((course, index) => 
+                    {courses.filter(course => course.public).map((course, index) => 
                         <Grid key={index} item xs={6} md={4} lg={3}>
                             <Card
                                 onClick={() => navigate(course.slug)}
