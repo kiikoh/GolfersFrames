@@ -2233,6 +2233,7 @@
         "folder": "Men",
         "slug": "mendham",
         "public": true,
+        "thumbnailIndex": 15,
         "assets": {
             "logo": "logo.png",
             "holes": [
@@ -2489,6 +2490,7 @@
         "folder": "TCN",
         "slug": "Trump-National-Colts",
         "public": true,
+        "thumbnailIndex": 9,
         "assets": {
             "logo": "logo.png",
             "holes": [
