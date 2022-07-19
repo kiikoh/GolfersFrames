@@ -2983,18 +2983,18 @@
                     "blurhash": "hRAncKx]8^n#%NRkR%of%ho#M{n#s,WCWrofx|kXRNn$t8WBbHof%gt8V[n}jYW=flof%gt8V?jYocWWfmof"
                 },
                 {
-                    "url": "3g.jpg",
-                    "description": "Hole 3 Green",
-                    "yards": 218,
-                    "par": 3,
-                    "blurhash": "hMB4y=t4M*jsWXR,RjWBIOWEtQWBbHofoce.pLR*ofRkaht7ocj??^t6VxayS3bHWBWBx{f6oyf$WCWEoejt"
-                },
-                {
                     "url": "3t.jpg",
                     "description": "Hole 3 Tee",
                     "yards": 218,
                     "par": 3,
                     "blurhash": "hPC7chIU9GiyRnj^s,f$NSnfsQSwt2t7WEV{%jRPbCV@V[s;a}bF?vW9Myn$RkkCoLj]x_n#RPR*oboMWDj]"
+                },
+                {
+                    "url": "3g.jpg",
+                    "description": "Hole 3 Green",
+                    "yards": 218,
+                    "par": 3,
+                    "blurhash": "hMB4y=t4M*jsWXR,RjWBIOWEtQWBbHofoce.pLR*ofRkaht7ocj??^t6VxayS3bHWBWBx{f6oyf$WCWEoejt"
                 },
                 {
                     "url": "4f.jpg",
