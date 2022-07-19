@@ -3137,18 +3137,18 @@
                     "blurhash": "hWD,[Kj]RQozj]kCRjRjomozWTt7WCofRjV@kcogaxa$oKf8WUad.9ogfhaijbj]WBjY%ht8j[j[WXazafax"
                 },
                 {
-                    "url": "10g.jpg",
-                    "description": "Hole 10 Green",
-                    "yards": 428,
-                    "par": 4,
-                    "blurhash": "htEDw{V=M|ogWAWUWBoftDW9bEj]axj[j[j]toobaxoejsa#kCj[%gt7afWBWVWBWCj[bJohWDV[j[ofj[ay"
-                },
-                {
                     "url": "10t.jpg",
                     "description": "Hole 10 Tee",
                     "yards": 428,
                     "par": 4,
                     "blurhash": "hVDT%%t8DhWUbIWWa%jYW3f$IRWAofj]t7jHtojvRNazV[bHt8oJ?vt6j:bFRjWBozoeN3RjRQa$awWBogof"
+                },
+                {
+                    "url": "10g.jpg",
+                    "description": "Hole 10 Green",
+                    "yards": 428,
+                    "par": 4,
+                    "blurhash": "htEDw{V=M|ogWAWUWBoftDW9bEj]axj[j[j]toobaxoejsa#kCj[%gt7afWBWVWBWCj[bJohWDV[j[ofj[ay"
                 },
                 {
                     "url": "11f.jpg",
