@@ -2948,18 +2948,18 @@
                     "blurhash": "hlFGH-MxE1jXjZofj]kCOes7i^WAaya}j]j]olRibDjYWBWXa#fl%hWTWAbEaejaWXfktSs.aeaxWUj?jZaz"
                 },
                 {
-                    "url": "1w.jpg",
-                    "description": "Hole 2 Water",
-                    "yards": 511,
-                    "par": 5,
-                    "blurhash": "hdCk0TMwITxut9oJV?kBWLV;WFWXWAbIkCayp3V;aaaiW@j?ada#%gV@fSt5f5ogj]ocbLouRiWBfka#WDfR"
-                },
-                {
                     "url": "2t.jpg",
                     "description": "Hole 2 Tee",
                     "yards": 511,
                     "par": 5,
                     "blurhash": "hfE3*IX8IVn+R+aeRmj[T5jIWBbFoeWVoea}t:ofs,R+jZf6j[j[?vWDNHoLRlbGaya#p1WBV^oLoekBjtfj"
+                },
+                {
+                    "url": "2w.jpg",
+                    "description": "Hole 2 Water",
+                    "yards": 511,
+                    "par": 5,
+                    "blurhash": "hdCk0TMwITxut9oJV?kBWLV;WFWXWAbIkCayp3V;aaaiW@j?ada#%gV@fSt5f5ogj]ocbLouRiWBfka#WDfR"
                 },
                 {
                     "url": "2f2.jpg",
@@ -2976,7 +2976,7 @@
                     "blurhash": "hiAUmht7M#WEoyocWBj]tpfTt7ocaeWDWCf6yGkCofafWBj[kBj?x{oef5ahflocj?fStTafWCk9j?aiahj?"
                 },
                 {
-                    "url": "2w.jpg",
+                    "url": "2w2.jpg",
                     "description": "Hole 2 Water 2",
                     "yards": 511,
                     "par": 5,
