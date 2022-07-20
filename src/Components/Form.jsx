@@ -83,7 +83,7 @@ const Form = ({ course, setForm, control, watch }) => {
     let fields = [];
     fields.push("Course: " + course.courseName);
     fields.push("Frame Color: " + response.color);
-    fields.push("Frame Size: " + response.size);
+    fields.push("Image Size: " + response.size);
     fields.push("Hole: " + course.assets.holes[response.holeIndex].description);
     switch (type) {
       case "art": {
@@ -227,7 +227,7 @@ const Form = ({ course, setForm, control, watch }) => {
             control={control}
             render={({ field }) => (
               <FormControl fullWidth margin="dense">
-                <InputLabel id="size-label">Frame Size</InputLabel>
+                <InputLabel id="size-label">Image Size</InputLabel>
                 <Select
                   size="small"
                   {...field}

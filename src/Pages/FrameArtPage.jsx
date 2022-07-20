@@ -42,9 +42,10 @@ const FrameArtPage = ({course, children}) => {
                 <Stack style={{marginTop: "2vh"}}>
                     <Typography variant="h4" sx={{textAlign: "center", color: theme.palette.primary.main}}>Select your favorite hole!</Typography>
                     <Frame course={course} hole={course.assets.holes[+watch("holeIndex")]} form={watch()} />
-                    <Grid container>
-                        <Grid item xs={4}></Grid>
-                        <Grid item xs={4}>
+                    <Typography variant="h6" sx={{textAlign: "center", color: theme.palette.primary.main}}>Available Sizes: Small - 24"x14" | Medium - 28"x16" |  Large - 34"x19" | Extra Large - 44"x24"</Typography>
+                    <Grid marginTop={2} container>
+                        <Grid item xs={2}></Grid>
+                        <Grid item xs={8}>
                             <Controller
                                 name="color"
                                 control={control}
@@ -56,9 +57,9 @@ const FrameArtPage = ({course, children}) => {
                                         </Select>
                                     </FormControl>
                                 }
-                            />  
+                            />
                         </Grid>
-                        <Grid item xs={4}></Grid>
+                        <Grid item xs={2}></Grid>
                     </Grid>
                     {children}
                 </Stack>
