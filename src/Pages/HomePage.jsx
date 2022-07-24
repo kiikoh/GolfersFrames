@@ -3,7 +3,7 @@ import React from 'react'
 import BlurHashImage from '../Components/BlurHashImage'
 import courses from "../master.json"
 import { useNavigate } from "react-router-dom";
-import sampleFrame from "../assets/sampleframe.png"
+import sampleFrame from "../assets/sampleframe.webp"
 import { useTheme } from '@mui/material'
 
 const HomePage = () => {
