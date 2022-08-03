@@ -235,9 +235,9 @@ const Form = ({ course, setForm, control, watch }) => {
                   labelId="size-label"
                 >
                   <MenuItem value="20x10-">20x10 (24"x14")</MenuItem>
-                  <MenuItem value="24x12">24x12</MenuItem>
-                  <MenuItem value="30x15">30x15</MenuItem>
-                  <MenuItem value="40x20">40x20</MenuItem>
+                  <MenuItem value="24x12">24x12 (28"x16")</MenuItem>
+                  <MenuItem value="30x15">30x15 (34"x19")</MenuItem>
+                  <MenuItem value="40x20">40x20 (44"x24")</MenuItem>
                 </Select>
               </FormControl>
             )}
