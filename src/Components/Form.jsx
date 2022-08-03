@@ -234,7 +234,7 @@ const Form = ({ course, setForm, control, watch }) => {
                   label="Frame Size"
                   labelId="size-label"
                 >
-                  <MenuItem value="20x10">20x10</MenuItem>
+                  <MenuItem value="20x10- (24"x14" frame)">20x10</MenuItem>
                   <MenuItem value="24x12">24x12</MenuItem>
                   <MenuItem value="30x15">30x15</MenuItem>
                   <MenuItem value="40x20">40x20</MenuItem>
