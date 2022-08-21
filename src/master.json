@@ -3891,6 +3891,285 @@
         }
     },
     {
+        "courseName": "Morris County Golf Club",
+        "folder": "MOR",
+        "slug": "morris-county",
+        "public": true,
+        "thumbnailIndex": 22,
+        "assets": {
+            "logo": "logo.png",
+            "holes": [
+                
+                {
+                    "url": "1f.jpg",
+                    "description": "Hole 1 Fairway",
+                    "yards": 336,
+                    "par": 4,
+                    "blurhash": "hKCjn4IX4T%Kx]ofM~jbRcxtIRM}x]ofofa#kuaMM]WBs=kCxtay.8WCMxoeV[a}o#j@%MoxaeafW9oekXaf"
+                },
+                {
+                    "url": "2f.jpg",
+                    "description": "Hole 2 Fairway",
+                    "yards": 497,
+                    "par": 5,
+                    "blurhash": "hWD^JYM{9IozxukDaxf6RvfNk7ogt7kDj?WC%jn$WTogWGozf6ay.9WBRjogf9kDoda{%hkBWCofoJa~oea#"
+                },
+                {
+                    "url": "2g.jpg",
+                    "description": "Hole 2 Green",
+                    "yards": 497,
+                    "par": 5,
+                    "blurhash": "hXD,ognhD+ocROWAe.axWffhbDV[Riaej=WB%jM|R%jYRifOaeWU.9aeRjjYadk8jray-?oIRQaxaxoJocay"
+                },
+                {
+                    "url": "3g.jpg",
+                    "description": "Hole 3 GGreen",
+                    "yards": 130,
+                    "par": 3,
+                    "blurhash": "hiG]2Aj[Irs;Rjt8RjRiJGWFWDWEaeohjsWA-@ofbHRkWBkDWBWBb_xaogRjj?j]j@of%fWDR-RiWUWBa#of"
+                },
+                {
+                    "url": "3g2.jpg",
+                    "description": "Hole 3 Green 2",
+                    "yards": 130,
+                    "par": 3,
+                    "blurhash": "hjF$z:n#RoofogoaV?jYXYsoRkflj]RjRjWBx|M|t6t7WXf5WAkCtlt6n,t8oLk9oet7-pafM|kDRjflj[j^"
+                },
+                {
+                    "url": "3g3.jpg",
+                    "description": "Hole 3 Green 3",
+                    "yards": 130,
+                    "par": 3,
+                    "blurhash": "hbF$qit79a%2R5t7i^V?TOR:k8R-M_t7RiV?kuo#jqj[V?ofjERj.8xuIURjsmWBs.jYWYogxZRjRkaybIj@"
+                },
+                {
+                    "url": "3t.jpg",
+                    "description": "Hole 3 Tee",
+                    "yards": 130,
+                    "par": 3,
+                    "blurhash": "hIC%Z$Me01M{-=skoyacN9R$W6RP%hRjkDRi%ioaRNjXkFWAt7Ri-=V@IURkxus.kCRj%MR*R$a$ofofa$jY"
+                },
+                {
+                    "url": "4a.jpg",
+                    "description": "Hole 4 Approach",
+                    "yards": 390,
+                    "par": 4,
+                    "blurhash": "hdDwBCslIBV?n%j]Rja{tWWAj:WAockCWBofXXRjacadf5bIWBj]yEj?jFjZj=WCaxWUx^aejrofaej?kCf6"
+                },
+                {
+                    "url": "4g.jpg",
+                    "description": "Hole 4 Green",
+                    "yards": 390,
+                    "par": 4,
+                    "blurhash": "hlD^P%xsM|RiadofWAWAkJRmobV?oIofWAaxSnRnobe.awofWAoIyEofV@j[ada#axoKkFf6jYogadaeayj["
+                },
+                {
+                    "url": "5g.jpg",
+                    "description": "Hole 5 Green",
+                    "yards": 338,
+                    "par": 4,
+                    "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
+                },
+                {
+                    "url": "6g.jpg",
+                    "description": "Hole 6 Green",
+                    "yards": 346,
+                    "par": 4,
+                    "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
+                },
+                {
+                    "url": "7a.jpg",
+                    "description": "Hole 7 Approach",
+                    "yards": 440,
+                    "par": 4,
+                    "blurhash": "haED6K%gD*t8RkROWBRkp3tTj:ozoeRiaxbFtobxR$bIo2jXfkfk?co#Myofj[aet7WWtSozWAj@oeofogbH"
+                },
+                {
+                    "url": "7a2.jpg",
+                    "description": "Hole 7 Approach 2",
+                    "yards": 440,
+                    "par": 4,
+                    "blurhash": "haED6K%gD*t8RkROWBRkp3tTj:ozoeRiaxbFtobxR$bIo2jXfkfk?co#Myofj[aet7WWtSozWAj@oeofogbH"
+                },
+                {
+                    "url": "7f.jpg",
+                    "description": "Hole 7 fairway",
+                    "yards": 440,
+                    "par": 4,
+                    "blurhash": "hWC@A|oe8_WBofozkDj[XFoMRMWBj]ogogaz%iRkRNjae.t7kDWBx]ocRQa$f4j[kCWBjvt3t7bIWAa#WDWB"
+                },
+                {
+                    "url": "7g.jpg",
+                    "description": "Hole 7 Green",
+                    "yards": 440,
+                    "par": 4,
+                    "blurhash": "haFG8nkRD+%NR5IUj=kDO1og%MR.ITV?ocoztWRkNG%MV?RPoLR,yXoxt8WFV@azj?kC-;R*R:ofoIozocWC"
+                },
+                {
+                    "url": "8f.jpg",
+                    "description": "Hole 8 Fairway",
+                    "yards": 430,
+                    "par": 4,
+                    "blurhash": "hXEM?c%N8{M_tRt7RQWBtW%NMwIUozofWAju%io$V?V@WYWBaxof.7o#jGofV[Rjj[ogNMozt7t7WBRjj[kC"
+                },
+                {
+                    "url": "8l.jpg",
+                    "description": "Hole 8 Low",
+                    "yards": 430,
+                    "par": 4,
+                    "blurhash": "hYE|Isxv9FV?tSoxRPkCXFx^R4RPtRfPWAj]T3fnVsV?a$jsoLof%fWGf6jYRjWBt7ofShWYt7oeRjWAkCj]"
+                },
+                {
+                    "url": "9a.jpg",
+                    "description": "Hole 9 Approach",
+                    "yards": 445,
+                    "par": 4,
+                    "blurhash": "hKD0#y%J8}NgMwITWERiM?oNj.o}ROV?bYf5t.n%t1XAV?acWCaw?^jYMyo#ROWAf6Rj%hs,M{S5s,juR%t7"
+                },
+                {
+                    "url": "11a.jpg",
+                    "description": "Hole 11 Approach",
+                    "yards": 505,
+                    "par": 5,
+                    "blurhash": "heEplut9D%%LWARit7WUtWo#V=xbjYRiogWBtoWGacs;e.axj]WB%hohWAocf5odWCaxtSt8aejYoej]WBWB"
+                },
+                {
+                    "url": "11g.jpg",
+                    "description": "Hole 11 Green",
+                    "yards": 505,
+                    "par": 5,
+                    "blurhash": "hSEpT6-r9GNFR:ozW=RkIgSPM_xu%Mt8ozj]%QtSRhRkRoRlWYWC%#N3M{ofogayogt7tmozahxuoeRia#og"
+                },
+                {
+                    "url": "12g.jpg",
+                    "description": "Hole 12 Green",
+                    "yards": 321,
+                    "par": 4,
+                    "blurhash": "hWD,x{RgD%xvM|RiWCozXFMyV=kCoeaeRka~.AM_V?t7RQj?j?j]tmt5n$M{V@s;axflRqofn%RiWAt7j[WX"
+                },
+                {
+                    "url": "13g.jpg",
+                    "description": "Hole 13 Green",
+                    "yards": 204,
+                    "par": 3,
+                    "blurhash": "hgF~]YR$IWs;M|ozWBt6kvxbWBM{xaj]axj[-@RjWBxaRjj]ayoftmW.t7WCoLWVayoJX8t6V]j]oKWBa#fP"
+                },
+                {
+                    "url": "13g2.jpg",
+                    "description": "Hole 13 Green 2",
+                    "yards": 204,
+                    "par": 3,
+                    "blurhash": "hgF~]YR$IWs;M|ozWBt6kvxbWBM{xaj]axj[-@RjWBxaRjj]ayoftmW.t7WCoLWVayoJX8t6V]j]oKWBa#fP"
+                },
+                {
+                    "url": "13t.jpg",
+                    "description": "Hole 13 Tee",
+                    "yards": 204,
+                    "par": 3,
+                    "blurhash": "hRE{a.W90Kt8Iqadt8NGA#RPnKkDxXWUf,n$-=R+RhoeR*oJbIbGt7xuRjV@jYa#ofbIE1t8%0M{WAofa%of"
+                },
+                {
+                    "url": "14g.jpg",
+                    "description": "Hole 14 Green",
+                    "yards": 422,
+                    "par": 4,
+                    "blurhash": "hiEf.lxuDkt8V@RjafV@%Qo#W9ozWAWAf6WBx{oNV?WFadaeodoI-=t7V[kCaeoej@axx]ogWBoebFj[jZWC"
+                },
+                {
+                    "url": "15g.jpg",
+                    "description": "Hole 15 Green",
+                    "yards": 219,
+                    "par": 3,
+                    "blurhash": "hRE3*4V@9GROV?xvV@o#RcWARhROaJo#axo#%iobM_V?acf-aeoz?vagIUocobf+bFkCt9WCM_t7ocWBa}a}"
+                },
+                {
+                    "url": "16a.jpg",
+                    "description": "Hole 16 Approach",
+                    "yards": 438,
+                    "par": 4,
+                    "blurhash": "haD,o#ozDht7kES6t9t6NSkDRMt8t8W?t8jsksRljqt8a%bJj]j?bakCt7a$WBWDWCoeM|oet8WEaxafWBaz"
+                },
+                {
+                    "url": "16g.jpg",
+                    "description": "Hole 16 Green",
+                    "yards": 438,
+                    "par": 4,
+                    "blurhash": "hODma6xmDitURORNWZofN9MxRgp0ROMwt8t7ObxtV?WZWAV=ofoftQ%MnkM|t6n}V@ayxCWGW;RiWFjrRjj]"
+                },
+                {
+                    "url": "16g2.jpg",
+                    "description": "Hole 16 Green 2",
+                    "yards": 438,
+                    "par": 4,
+                    "blurhash": "hUFG2PxpDixdt8xvs;RixgMyIStRWZohofRjEpj?s6xvt8ogj]jYyDR%ngWZflbHbIax-ojcj[t7kDa$ofof"
+                },
+                {
+                    "url": "17g.jpg",
+                    "description": "Hole 17 Green",
+                    "yards": 183,
+                    "par": 3,
+                    "blurhash": "hODw4]tRDjV[Rjf+RPRiI$oit2W9adt8WARi%jxuoHn+jYR*adWU?wj_M|ayWAf6W9WntTWGWBWUocofaxof"
+                },
+                {
+                    "url": "17g2.jpg",
+                    "description": "Hole 17 Green 2",
+                    "yards": 183,
+                    "par": 3,
+                    "blurhash": "hGE:bPNr9b$kM#x_o#jX0B%3xZ9YxtxvkEMxjOSvbp%2M{o#jcV??[xuxJRkxus=j[WA%eRnMzW=WUR-RjRj"
+                },
+                {
+                    "url": "17t.jpg",
+                    "description": "Hole 17 Tee",
+                    "yards": 183,
+                    "par": 3,
+                    "blurhash": "hLEMmw9v4Tt7x{i_IUs,EY$%Dgt7%hR%skbF?vk9VqI;xcWBk8ja$*NJIpxWS1xtWYbHRioMtRM|slW=t7R+"
+                },
+                {
+                    "url": "18a.jpg",
+                    "description": "Hole 18 Approach",
+                    "yards": 422,
+                    "par": 4,
+                    "blurhash": "hvDdRvfmMxozWAjYj]fiXYt8ngj]jYj?flaeS,fmn#flafoKa#aeX9bIjubIkCfkfQayNGj[ozWXkCfkayay"
+                },
+                {
+                    "url": "18g.jpg",
+                    "description": "Hole 18 Green",
+                    "yards": 422,
+                    "par": 4,
+                    "blurhash": "hsEDYFxVM#R,WBjrWBj[p3ahf5kCj=ayjZfkkuj@a_WVoJj@fRa}tmWVRla#jYofWVayR.flazj[jsa}j[ay"
+                },
+                {
+                    "url": "ch1.jpg",
+                    "description": "Clubhouse 1",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "hoGIr@adIVkCWCofa#j[TOaxn$f8j?j]azazo%oeoJa#R*ayj[oMT0s;aeWCjbWVoKoMRpogf8ayj?jaj?a{"
+                },
+                {
+                    "url": "ch2.jpg",
+                    "description": "Clubhouse 2",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "h*F6tfoLM|WBRkj?aeoetWfij=bIj]oLaxaxtTf8aya}WBfPfRoLkBj[ayj]axj[j[j[RPWVbHj]j[ofa}fQ"
+                },
+                {
+                    "url": "ch3.jpg",
+                    "description": "Clubhouse 3",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "hbG]5WogIokCRjs:oIoI%jt7Rjj^WBR%RjaxtnRioMWUj^s;ofoftSR*t6s;j[WUfkj]xwt7juNFR%aya#of"
+                },
+                {
+                    "url": "ch4.jpg",
+                    "description": "Clubhouse 4",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "heG9Hnt6Iot7WAR%bJWV%ja$RjWXoft7ofR,yFaxofj]WER%WBj]tToLxtodWBj[WAWCf,j=RjWAaxjajYof"
+                }
+            ]
+        }
+    },
+    {
         "courseName": "Basking Ridge Country Club",
         "folder": "BR",
         "slug": "basking-ridge",
