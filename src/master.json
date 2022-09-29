@@ -790,9 +790,9 @@
             "logo": "logo.png",
             "holes": [
                 {
-                    "url": "2g.jpg",
-                    "description": "Hole 2 Green",
-                    "yards": 434,
+                    "url": "1g.jpg",
+                    "description": "Hole 1 Green",
+                    "yards": 421,
                     "par": 4,
                     "blurhash": "hxFsrKs;M{ozWAbHWAkC%7bbRiofjYj[jYofo~WYWUo0jZj[j]j?oaoMjbjqj[bGa~WBMyR*f5jYofa#a#WC"
                 },
