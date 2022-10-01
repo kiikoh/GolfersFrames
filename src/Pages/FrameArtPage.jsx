@@ -42,7 +42,7 @@ const FrameArtPage = ({course, children}) => {
                 <Stack style={{marginTop: "2vh"}}>
                     <Typography variant="h4" sx={{textAlign: "center", color: theme.palette.primary.main}}>Select your favorite hole!</Typography>
                     <Frame course={course} hole={course.assets.holes[+watch("holeIndex")]} form={watch()} />
-                    <Typography variant="h6" sx={{textAlign: "center", color: theme.palette.primary.main}}>Available Sizes: Small - 24"x14" | Medium - 28"x16" |  Large - 34"x19" | Extra Large - 44"x24"</Typography>
+                    <Typography variant="h6" sx={{textAlign: "center", color: theme.palette.primary.main}}>Available Sizes: Small - 24"x14" - (10"x20" print) | Medium - 28"x16" |  Large - 34"x19" | Extra Large - 44"x24"</Typography>
                     <Grid marginTop={2} container>
                         <Grid item xs={4}></Grid>
                         <Grid item xs={4}>
