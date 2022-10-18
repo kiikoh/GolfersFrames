@@ -4028,13 +4028,6 @@
                     "blurhash": "hdDwBCslIBV?n%j]Rja{tWWAj:WAockCWBofXXRjacadf5bIWBj]yEj?jFjZj=WCaxWUx^aejrofaej?kCf6"
                 },
                 {
-                    "url": "4g.jpg",
-                    "description": "Hole 4 Green",
-                    "yards": 390,
-                    "par": 4,
-                    "blurhash": "hlD^P%xsM|RiadofWAWAkJRmobV?oIofWAaxSnRnobe.awofWAoIyEofV@j[ada#axoKkFf6jYogadaeayj["
-                },
-                {
                     "url": "4gf.jpg",
                     "description": "Hole 4 Green Fall",
                     "yards": 390,
@@ -4047,13 +4040,6 @@
                     "yards": 390,
                     "par": 4,
                     "blurhash": "hlD^P%xsM|RiadofWAWAkJRmobV?oIofWAaxSnRnobe.awofWAoIyEofV@j[ada#axoKkFf6jYogadaeayj["
-                },
-                {
-                    "url": "5g.jpg",
-                    "description": "Hole 5 Green",
-                    "yards": 338,
-                    "par": 4,
-                    "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
                 },
                 {
                     "url": "5gf.jpg",
@@ -4084,15 +4070,8 @@
                     "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
                 },
                 {
-                    "url": "6gf.jpg",
-                    "description": "Hole 6 Green Fall",
-                    "yards": 346,
-                    "par": 4,
-                    "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
-                },
-                {
                     "url": "6g2f.jpg",
-                    "description": "Hole 6 Green 2 Fall",
+                    "description": "Hole 6 Green Fall",
                     "yards": 346,
                     "par": 4,
                     "blurhash": "hTCa0Wn#N3X9M|t6adjrI}ad%Lt8ayRkRjRj?wn~ogkDWBofjEWB%ia_ajt7kCWBWAWBNPocoeWFogoLoIWB"
