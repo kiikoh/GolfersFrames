@@ -4617,13 +4617,6 @@
                     "blurhash": "hSDTk5r;8~oujckWogogx|VsWAWUbakDogogI}V?t2axj]ogogog.Ts*V@jGjIogkDW=t.e,V@WBWDW=WYbI"
                 },
                 {
-                    "url": "2g3.jpg",
-                    "description": "Hole 2 Green 3",
-                    "yards": 413,
-                    "par": 4,
-                    "blurhash": "hdDwZ%r;DlawV@axaeoeXYV?aKadawaxbFj[TOacn#WAadj?jZj[yFoHaKjFaej?j@bHT2f4enaxj=ayazWq"
-                },
-                {
                     "url": "2gh.jpg",
                     "description": "Hole 2 Green High",
                     "yards": 413,
@@ -4863,7 +4856,7 @@
                 },
                 {
                     "url": "17f.jpg",
-                    "description": "Hole 17 fairway",
+                    "description": "Hole 17 Fairway",
                     "yards": 200,
                     "par": 3,
                     "blurhash": "hXBzg]RUIVt6n#t7WBoIN9t6xURojXj]WUaxtoofada$aea#fOaxtoR.aeodfhR+afj]SSkCocWCWDa{oIj]"
@@ -4883,15 +4876,15 @@
                     "blurhash": "hbBgbsR:MytQW+j[WCkCx|t8a]ajRjafjubHpLogoHWFaKofaya#pLogadozoIj]a_oKktj]WBfls,WYaxay"
                 },
                 {
-                    "url": "18g2.jpg",
-                    "description": "Hole 18 gren 2",
+                    "url": "18g.jpg",
+                    "description": "Hole 18 Green",
                     "yards": 422,
                     "par": 4,
                     "blurhash": "hvD1KGnzMzogo3oJaej[p3e-WUkCoeayWBayb}aeaya}ayazaxaytnofahjZjZkCoLj@R;kDj[aeaxbHj[f6"
                 },
                 {
-                    "url": "18g3.jpg",
-                    "description": "Hole 18 Green 3",
+                    "url": "18g2.jpg",
+                    "description": "Hole 18 Green 2",
                     "yards": 422,
                     "par": 4,
                     "blurhash": "hxE40-s+MzWEj]odWBWV%jjFWBa}j]oLjZaypLe.bFbHa#j[jZjsyEoeV^WWayfjazj@gOkCWXa}ayj[j[j["
