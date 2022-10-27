@@ -52,8 +52,8 @@ const FrameArtPage = ({course, children}) => {
                                 render={({field}) => <FormControl fullWidth>
                                         <InputLabel id="color-label">Frame Color</InputLabel>
                                         <Select size="small" {...field} label="Frame Color" labelId="color-label">
-                                            <MenuItem value="brown">Brown Mahogany</MenuItem>
-                                            <MenuItem value="red">Red Mahogany</MenuItem>
+                                            {/* <MenuItem value="brown">Brown Mahogany</MenuItem> */}
+                                            {/* <MenuItem value="red">Red Mahogany</MenuItem> */}
                                         </Select>
                                     </FormControl>
                                 }
