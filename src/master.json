@@ -3041,6 +3041,13 @@
                     "blurhash": "hbEz4AR#DkxZX9kCjYbFI~nLacSht7j]axaep2ITs7oLNLs:e.j?%hs%MzsooLR.oJaft9oHoISgt5o3R+j["
                 },
                 {
+                    "url": "1tf.jpg",
+                    "description": "Hole 1 Tee Fall",
+                    "yards": 376,
+                    "par": 4,
+                    "blurhash": "hbEz4AR#DkxZX9kCjYbFI~nLacSht7j]axaep2ITs7oLNLs:e.j?%hs%MzsooLR.oJaft9oHoISgt5o3R+j["
+                },
+                {
                     "url": "1a.jpg",
                     "description": "Hole 1 Approach",
                     "yards": 376,
@@ -3097,6 +3104,13 @@
                     "blurhash": "hPC7chIU9GiyRnj^s,f$NSnfsQSwt2t7WEV{%jRPbCV@V[s;a}bF?vW9Myn$RkkCoLj]x_n#RPR*oboMWDj]"
                 },
                 {
+                    "url": "3ff.jpg",
+                    "description": "Hole 3 Fairway Fall",
+                    "yards": 218,
+                    "par": 3,
+                    "blurhash": "hPC7chIU9GiyRnj^s,f$NSnfsQSwt2t7WEV{%jRPbCV@V[s;a}bF?vW9Myn$RkkCoLj]x_n#RPR*oboMWDj]"
+                },
+                {
                     "url": "3g.jpg",
                     "description": "Hole 3 Green",
                     "yards": 218,
@@ -3132,11 +3146,32 @@
                     "blurhash": "hQBqeVo|DiR:a$WAogocRcWFRMozbcWAt7j@k[x[RgbbWFaxs;WC?vbcR5V_WCfkogaxxwRpjEWVWUoejboc"
                 },
                 {
+                    "url": "5ff.jpg",
+                    "description": "Hole 5 Fairway Fall",
+                    "yards": 560,
+                    "par": 5,
+                    "blurhash": "hQBqeVo|DiR:a$WAogocRcWFRMozbcWAt7j@k[x[RgbbWFaxs;WC?vbcR5V_WCfkogaxxwRpjEWVWUoejboc"
+                },
+                {
                     "url": "5f2.jpg",
                     "description": "Hole 5 Fairway 2",
                     "yards": 560,
                     "par": 5,
                     "blurhash": "hWC@i=tRDPofW?WAjIWCV,tSRgWDogWAoefiyFxbV=Wqe=awoej?.8bdRPa#R+WAoMWBt9ogoeoLWBj=oLWB"
+                },
+                {
+                    "url": "5f2f.jpg",
+                    "description": "Hole 5 Fairway 2 Fall",
+                    "yards": 560,
+                    "par": 5,
+                    "blurhash": "hWC@i=tRDPofW?WAjIWCV,tSRgWDogWAoefiyFxbV=Wqe=awoej?.8bdRPa#R+WAoMWBt9ogoeoLWBj=oLWB"
+                },
+                {
+                    "url": "5hf.jpg",
+                    "description": "Hole 5 High Fall",
+                    "yards": 560,
+                    "par": 5,
+                    "blurhash": "hEAUZ%Mx00%gt3M{tRV[M?a^Ryxve,RktRWA*0RQRNozVskCtRWA.9WBMwt7oIbHkCV[%gtPIUVtjEbcWEad"
                 },
                 {
                     "url": "5w.jpg",
@@ -3148,6 +3183,13 @@
                 {
                     "url": "6f.jpg",
                     "description": "Hole 6 Fairway",
+                    "yards": 186,
+                    "par": 3,
+                    "blurhash": "hLBEHWtK4Uakj^t7j[RPRvMzRet8ozkCofW9%iouMvo|oga$ofWA.9WAMwajRnofofRjo%V@ROj^j?j]ofax"
+                },
+                {
+                    "url": "6ff.jpg",
+                    "description": "Hole 6 Fairway Fall",
                     "yards": 186,
                     "par": 3,
                     "blurhash": "hLBEHWtK4Uakj^t7j[RPRvMzRet8ozkCofW9%iouMvo|oga$ofWA.9WAMwajRnofofRjo%V@ROj^j?j]ofax"
@@ -3195,6 +3237,13 @@
                     "blurhash": "hhE3#GNHD#spM{WEt8oeXrn+W7WBnhRmkDofb|RlnfbEt3oMWVofxubbNGsloeWCaxkCW;t6ofWCn%V]WBa#"
                 },
                 {
+                    "url": "8tf.jpg",
+                    "description": "Hole 8 Tee Fall",
+                    "yards": 330,
+                    "par": 4,
+                    "blurhash": "hhE3#GNHD#spM{WEt8oeXrn+W7WBnhRmkDofb|RlnfbEt3oMWVofxubbNGsloeWCaxkCW;t6ofWCn%V]WBa#"
+                },
+                {
                     "url": "8b.jpg",
                     "description": "Hole 8 Bunkers",
                     "yards": 330,
@@ -3209,11 +3258,25 @@
                     "blurhash": "h#E:uONaM{s:M{ofa$V?T5sof4R+oHj]WEadtUR-oJjYkBayayoetSkCWYn~ofaeWBogS7oej]WVofaeayfl"
                 },
                 {
+                    "url": "8ff.jpg",
+                    "description": "Hole 8 Fairway Fall",
+                    "yards": 330,
+                    "par": 4,
+                    "blurhash": "h#E:uONaM{s:M{ofa$V?T5sof4R+oHj]WEadtUR-oJjYkBayayoetSkCWYn~ofaeWBogS7oej]WVofaeayfl"
+                },
+                {
                     "url": "8f2.jpg",
                     "description": "Hole 8 Fairway 2",
                     "yards": 330,
                     "par": 4,
                     "blurhash": "hWDwHU-;H@V[RiaxaeRik0ohM^NFV?WBj?jFx{R.RhoeWAjZoKad?vxaVtt8axWAWAWAo$a_RjWsWBRjaxjY"
+                },
+                {
+                    "url": "8f2f.jpg",
+                    "description": "Hole 8 Fairway 2 Fall",
+                    "yards": 330,
+                    "par": 4,
+                    "blurhash": "h#E:uONaM{s:M{ofa$V?T5sof4R+oHj]WEadtUR-oJjYkBayayoetSkCWYn~ofaeWBogS7oej]WVofaeayfl"
                 },
                 {
                     "url": "8g.jpg",
@@ -3293,6 +3356,13 @@
                     "blurhash": "hEA1zf%Y4VWGtRV[kDof9TIDs}ozWYawfStP?]t2R4tQV|RQt7of%hobIARVtQWAbIoekZM}RNt6ozk8a$WD"
                 },
                 {
+                    "url": "12f.jpg",
+                    "description": "Hole 12 Fall",
+                    "yards": 199,
+                    "par": 3,
+                    "blurhash": "hEA1zf%Y4VWGtRV[kDof9TIDs}ozWYawfStP?]t2R4tQV|RQt7of%hobIARVtQWAbIoekZM}RNt6ozk8a$WD"
+                },
+                {
                     "url": "13f.jpg",
                     "description": "Hole 13 Fairway",
                     "yards": 372,
@@ -3302,6 +3372,13 @@
                 {
                     "url": "13f2.jpg",
                     "description": "Hole 13 Fairway 2",
+                    "yards": 372,
+                    "par": 4,
+                    "blurhash": "hOA_ITn#4To#ohaeo3a#V,bWRffmkDe.ofj[.AaeRMogRnfkogWV%hV[MwkVR*oft7WBo%oej:RRWAxut7WA"
+                },
+                {
+                    "url": "13f2f.jpg",
+                    "description": "Hole 13 Fairway 2 Fall",
                     "yards": 372,
                     "par": 4,
                     "blurhash": "hOA_ITn#4To#ohaeo3a#V,bWRffmkDe.ofj[.AaeRMogRnfkogWV%hV[MwkVR*oft7WBo%oej:RRWAxut7WA"
@@ -3363,6 +3440,20 @@
                     "blurhash": "hEBqU@%w01IpxoV[s=%18=RStIogRQRQtRWB*0k8xltPIWawkDWD%OoMDjM~o@obtRs.?]j@IAkVWBaxt8jZ"
                 },
                 {
+                    "url": "17ff.jpg",
+                    "description": "Hole 17 Fairway Fall",
+                    "yards": 417,
+                    "par": 4,
+                    "blurhash": "hEBqU@%w01IpxoV[s=%18=RStIogRQRQtRWB*0k8xltPIWawkDWD%OoMDjM~o@obtRs.?]j@IAkVWBaxt8jZ"
+                },
+                {
+                    "url": "17hf.jpg",
+                    "description": "Hole 17 High Fall",
+                    "yards": 417,
+                    "par": 4,
+                    "blurhash": "hGB;s*8^M:Rhxut3M}s:4iMb%#nzR.tQRkoKpeRMtSacM~t7axt6_MISssWnn~ogRjt6V~ngN1xtRit8Rje?"
+                },
+                {
                     "url": "18a.jpg",
                     "description": "Hole 18 Approach",
                     "yards": 397,
@@ -3372,6 +3463,27 @@
                 {
                     "url": "18f.jpg",
                     "description": "Hole 18 Fairway",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
+                },
+                {
+                    "url": "18ff.jpg",
+                    "description": "Hole 18 Fairway Fall",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
+                },
+                {
+                    "url": "18f2f.jpg",
+                    "description": "Hole 18 Fairway 2 Fall",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
+                },
+                {
+                    "url": "18f3f.jpg",
+                    "description": "Hole 18 Fairway 3 Fall",
                     "yards": 397,
                     "par": 4,
                     "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
@@ -3389,7 +3501,29 @@
                     "yards": 397,
                     "par": 4,
                     "blurhash": "hpFPywt9V[s:IoWVM{WBI|s?NER*xajtt7js%jRot5s;RjoyWBa{tmxbe:Wrj@WBWCf5XARjWBj]oLjvogj["
+                },
+                {
+                    "url": "chf.jpg",
+                    "description": "Clubhouse Fall",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
+                },
+                {
+                    "url": "chf2.jpg",
+                    "description": "Clubhouse Fall 2",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
+                },
+                {
+                    "url": "chf3.jpg",
+                    "description": "Clubhouse Fall 3",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hUC@sKoa8ye.tloyM{R*g9W9NDWT%Nt7aet7tojXW9oboOofj?a$%$j=njjGNHaya#RkNLj=jJR%t6kCt8t7"
                 }
+                
             ]
         }
     },
