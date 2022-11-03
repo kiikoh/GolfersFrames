@@ -213,7 +213,7 @@ const Form = ({ course, setForm, control, watch }) => {
                 <Select
                   size="small"
                   {...field}
-                  label="Frame Color"
+                  label="Frame Size"
                   labelId="color-label"
                 >
                   <MenuItem value="brown">Brown Mahogany</MenuItem>
