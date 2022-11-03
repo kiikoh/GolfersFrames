@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Frame.module.css";
-import frameRed from "../assets/frame-red.webp";
+import frameRed from "../assets/frame-large.webp";
 import frameBrown from "../assets/frame-brownnew.webp";
 import oneline from "../assets/1line.png";
 import threeline from "../assets/3line.png";
@@ -10,8 +10,7 @@ import ball from "../assets/golfball.png";
 const Frame = ({ course, form, hole }) => {
   const currFrameSrc = () => (form.color === "red" ? frameRed : frameBrown);
   const currHoleSrc = () =>
-    `${process.env.PUBLIC_URL}/assets/${course.folder}/${
-      hole?.url || "hole1.jpg"
+    `${process.env.PUBLIC_URL}/assets/${course.folder}/${hole?.url || "hole1.jpg"
     }`;
   const currMat = () => {
     if (form.type === "art") return oneline;
