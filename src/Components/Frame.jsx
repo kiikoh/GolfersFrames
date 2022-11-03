@@ -8,7 +8,7 @@ import withBall from "../assets/3linecut.png";
 import ball from "../assets/golfball.png";
 
 const Frame = ({ course, form, hole }) => {
-  const currFrameSrc = () => (form.color === "red" ? frameRed : frameBrown);
+  const currFrameSrc = () => ((form.size === "30x15" || form.size === "40x20" || form.color === "red") ? frameRed : frameBrown);
   const currHoleSrc = () =>
     `${process.env.PUBLIC_URL}/assets/${course.folder}/${hole?.url || "hole1.jpg"
     }`;

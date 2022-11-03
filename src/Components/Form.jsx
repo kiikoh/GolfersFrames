@@ -207,7 +207,7 @@ const Form = ({ course, setForm, control, watch }) => {
             name="color"
             control={control}
             render={({ field }) => (
-              <FormControl fullWidth margin="dense">
+              <FormControl fullWidth margin="dense" style={{ display: "none" }}>
                 <InputLabel id="color-label">Frame Size</InputLabel>
                 <Select
                   size="small"
@@ -215,8 +215,8 @@ const Form = ({ course, setForm, control, watch }) => {
                   label="Frame Color"
                   labelId="color-label"
                 >
-                  <MenuItem value="brown">Small / Medium</MenuItem>
-                  <MenuItem value="red">Large / Extra Large</MenuItem>
+                  <MenuItem value="brown">Brown Mahogany</MenuItem>
+                  <MenuItem value="red">Red Mahogany</MenuItem>
                 </Select>
               </FormControl>
             )}
@@ -225,7 +225,7 @@ const Form = ({ course, setForm, control, watch }) => {
             name="size"
             control={control}
             render={({ field }) => (
-              <FormControl fullWidth margin="dense" style={{ display: "none" }}>
+              <FormControl fullWidth margin="dense">
                 <InputLabel id="size-label">Image Size</InputLabel>
                 <Select
                   size="small"
