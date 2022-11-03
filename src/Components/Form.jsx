@@ -33,9 +33,8 @@ const Form = ({ course, setForm, control, watch }) => {
       body: JSON.stringify({
         orderDetails: generateConfirmation(),
         course: course.courseName,
-        imgSrc: `${process.env.PUBLIC_URL}/assets/${course.folder}/${
-          course.assets.holes[watch("holeIndex")]?.url
-        }`,
+        imgSrc: `${process.env.PUBLIC_URL}/assets/${course.folder}/${course.assets.holes[watch("holeIndex")]?.url
+          }`,
         ...watch(),
       }),
     }).then((res) => {
@@ -209,15 +208,15 @@ const Form = ({ course, setForm, control, watch }) => {
             control={control}
             render={({ field }) => (
               <FormControl fullWidth margin="dense">
-                <InputLabel id="color-label">Frame Color</InputLabel>
+                <InputLabel id="color-label">Frame Size</InputLabel>
                 <Select
                   size="small"
                   {...field}
                   label="Frame Color"
                   labelId="color-label"
                 >
-                  <MenuItem value="brown">Brown Mahogany</MenuItem>
-                  <MenuItem value="red">Red Mahogany</MenuItem>
+                  <MenuItem value="brown">Small / Medium</MenuItem>
+                  <MenuItem value="red">Large / Extra Large</MenuItem>
                 </Select>
               </FormControl>
             )}
@@ -226,7 +225,7 @@ const Form = ({ course, setForm, control, watch }) => {
             name="size"
             control={control}
             render={({ field }) => (
-              <FormControl fullWidth margin="dense">
+              <FormControl fullWidth margin="dense" style={{ display: "none" }}>
                 <InputLabel id="size-label">Image Size</InputLabel>
                 <Select
                   size="small"
