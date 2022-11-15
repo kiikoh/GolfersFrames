@@ -268,7 +268,7 @@
                     "blurhash": "huFQ5TRiMyk8WBogRjkCgSV@V?jYofazj?a~toj=oaj?WBj[ayoMx_a}j?j]Rjoff6WCR:ogj]j]jXWUjZay"
                 },
                 {
-                    "url": "hole15.jpg",
+                    "url": "15g.jpg",
                     "description": "Hole 15",
                     "yards": 194,
                     "par": 3,
@@ -312,6 +312,13 @@
                 {
                     "url": "17t.jpg",
                     "description": "Hole 17 Tee",
+                    "yards": 397,
+                    "par": 4,
+                    "blurhash": "hyHxTtxZi{r^nisTj[R+T#bbS1XRS1WVjbay%iWDs-n+jaoKfka#tToKoejFoLoeWWj]S6ocW;R*ofa#azfl"
+                },
+                {
+                    "url": "17g.jpg",
+                    "description": "Hole 17 Green",
                     "yards": 397,
                     "par": 4,
                     "blurhash": "hyHxTtxZi{r^nisTj[R+T#bbS1XRS1WVjbay%iWDs-n+jaoKfka#tToKoejFoLoeWWj]S6ocW;R*ofa#azfl"
