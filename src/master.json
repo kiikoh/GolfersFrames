@@ -185,7 +185,7 @@
                 },
                 {
                     "url": "10f.jpg",
-                    "description": "Hole 10 Fairway",
+                    "description": "Hole 10 Fairway Fall",
                     "yards": 474,
                     "par": 4,
                     "blurhash": "hvF6{^WYIXobazj[WBfkp3a$WVjZayj[j?f8T4j?oca}jZazj@j[TKjYoJbIjZa|ayazIrWBn+kCjsfQj[f6"
@@ -193,6 +193,13 @@
                 {
                     "url": "10fe.jpg",
                     "description": "Hole 10 Fescue",
+                    "yards": 474,
+                    "par": 4,
+                    "blurhash": "hrGSx$OGNGo2j[j?WVWXOxxbjXWXj?ayj[azp1axoIR-oKj?a}aztSRij[s:fij[ayfRNGV?ogazaxj[oLay"
+                },
+                {
+                    "url": "10ff.jpg",
+                    "description": "Hole 10 Fairway Fall 2",
                     "yards": 474,
                     "par": 4,
                     "blurhash": "hrGSx$OGNGo2j[j?WVWXOxxbjXWXj?ayj[azp1axoIR-oKj?a}aztSRij[s:fij[ayfRNGV?ogazaxj[oLay"
