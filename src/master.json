@@ -346,9 +346,16 @@
                 },
                 {
                     "url": "918.jpg",
-                    "description": "Hole 18",
-                    "yards": 543,
-                    "par": 5,
+                    "description": "Holes 9 and 18",
+                    "yards": null,
+                    "par": null,
+                    "blurhash": "hBFYIyt~0PrK#qjZF]xs|KxYK5xrRkNeoMn*EQWE$%RlE*xG#mniyA$~nPNbxY#TM}kUt3v%NIovrrS4kpS_"
+                },
+                {
+                    "url": "918 2.jpg",
+                    "description": "Holes 9 and 18 - 2 ",
+                    "yards": null,
+                    "par": null,
                     "blurhash": "hBFYIyt~0PrK#qjZF]xs|KxYK5xrRkNeoMn*EQWE$%RlE*xG#mniyA$~nPNbxY#TM}kUt3v%NIovrrS4kpS_"
                 },
                 {
