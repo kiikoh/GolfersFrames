@@ -73,7 +73,7 @@
                 },
                 {
                     "url": "4g2.jpg",
-                    "description": "Hole 4",
+                    "description": "Hole 4 Green Fall",
                     "yards": 176,
                     "par": 3,
                     "blurhash": "hdHejroeNHn,aKt6WDWB-txaocWBoLWBWVfl*0t5W;W=R*j[ayWV%~W=affkbFoejZa{p0t6o0WCoff6o0j["
@@ -81,6 +81,13 @@
                 {
                     "url": "4g4.jpg",
                     "description": "Hole 4 Green",
+                    "yards": 176,
+                    "par": 3,
+                    "blurhash": "hhFPTfbDIXf+V[a#WBjZntjEbFofjrbHWUjZpes+bYj[fPWWWCa{t-ofRRWCf8WCf8fkEUozt3aeofjYbHkC"
+                },
+                {
+                    "url": "4g5.jpg",
+                    "description": "Hole 4 Green Fall 2",
                     "yards": 176,
                     "par": 3,
                     "blurhash": "hhFPTfbDIXf+V[a#WBjZntjEbFofjrbHWUjZpes+bYj[fPWWWCa{t-ofRRWCf8WCf8fkEUozt3aeofjYbHkC"
