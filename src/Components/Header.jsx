@@ -14,9 +14,7 @@ const Header = () => {
                     <Box
                         onClick={() => navigate("/")}
                         component="img"
-                        sx={{
-                            height: 75
-                        }}
+                        height={75}
                         alt="logo"
                         src="https://golfersflyby.com/images/GFBlogo.png"
                     />
