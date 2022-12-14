@@ -3,8 +3,8 @@ import Footer from "./Components/Footer"
 import FrameOrderPage from "./Pages/FrameOrderPage";
 import "./styles.css";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import DateAdapter from '@mui/lab/AdapterMoment';
-import LocalizationProvider from '@mui/lab/LocalizationProvider';
+import {AdapterMoment} from '@mui/x-date-pickers/AdapterMoment';
+import {LocalizationProvider} from '@mui/x-date-pickers/LocalizationProvider';
 import { Routes, Route } from "react-router-dom";
 import courses from "./master.json"
 import NotFound from "./Pages/NotFound";
@@ -14,6 +14,7 @@ import MultiArtPage from "./Pages/MultiArtPage"
 import usePageTracking from "./usePageTracking"
 import { Fragment } from "react";
 import FiddlersElbowPage from "./Pages/FiddlersElbowPage"
+import SampleOrderPage from "./Pages/SampleOrderPage.jsx";
 
 const theme = createTheme({
   palette: {
@@ -43,12 +44,13 @@ function App() {
 
   return (
     <ThemeProvider theme={theme}>
-      <LocalizationProvider dateAdapter={DateAdapter}>
+      <LocalizationProvider dateAdapter={AdapterMoment}>
           <Header />
           <Routes>
             <Route exact path="/" element={<HomePage/>}/>
             {courses.map((course, index) => 
               <Fragment key={index}>
+                <Route path={course.slug + "/preview"} element={<SampleOrderPage course={course}/>} />
                 <Route path={course.slug + "/order"} element={<FrameOrderPage course={course}/>} />
                 <Route path={course.slug} element={<FrameArtPage course={course}/>} />
               </Fragment>

@@ -20,13 +20,14 @@ import DatePicker from "@mui/lab/DatePicker";
 import { useTheme } from "@mui/material";
 import toast, { Toaster } from "react-hot-toast";
 
-const Form = ({ course, setForm, control, watch }) => {
+const Form = ({ course, setForm, control, watch, previewOnly }) => {
   const [open, setOpen] = useState(false);
   const theme = useTheme();
 
   const type = watch("type");
 
   const handleSubmit = async () => {
+    if(previewOnly) return;
     const postReq = fetch("/placeorder", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -465,7 +466,7 @@ const Form = ({ course, setForm, control, watch }) => {
             )}
           />
           <Button
-            disabled={!isValid()}
+            disabled={!isValid() || previewOnly}
             onClick={() => setOpen(true)}
             variant="contained"
             fullWidth
